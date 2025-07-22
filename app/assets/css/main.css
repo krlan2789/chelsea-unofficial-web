@@ -1,0 +1,74 @@
+@import "tailwindcss";
+
+/*@theme {
+	--color-primary-bg: "#001489";
+} */
+
+@plugin "daisyui/theme" {
+	name: "chelseaTheme";
+	default: true;
+	prefersdark: false;
+	color-scheme: "light";
+	--color-base-100: #e5edf2;
+	--color-base-200: #d6e5f2;
+	--color-base-300: #c8dcf0;
+	--color-base-content: #202225;
+	--color-primary: #2c2f73;
+	--color-primary-content: #f8f4f2;
+	--color-secondary: #1f2172;
+	--color-secondary-content: #f8f4f2;
+	--color-accent: #3753b6;
+	--color-accent-content: #f8f4f2;
+	--color-neutral: #202225;
+	--color-neutral-content: #f8f4f2;
+	--color-info: #78bef6;
+	--color-info-content: oklch(44% 0.03 256.802);
+	--color-success: #b2f38f;
+	--color-success-content: oklch(44% 0.03 256.802);
+	--color-warning: #f98927;
+	--color-warning-content: oklch(44% 0.03 256.802);
+	--color-error: #fb2514;
+	--color-error-content: #f8f4f2;
+	--radius-selector: 0rem;
+	--radius-field: 0rem;
+	--radius-box: 0rem;
+	--size-selector: 0.3125rem;
+	--size-field: 0.3125rem;
+	--border: 0.5px;
+	--depth: 0;
+	--noise: 0;
+}
+
+@plugin "daisyui" {
+	themes: "chelseaTheme";
+	exclude: rootscrollgutter;
+}
+
+@layer base {
+	* {
+		margin: 0;
+		padding: 0;
+	}
+
+	*::-webkit-scrollbar {
+		@apply p-0 size-0;
+	}
+
+	*::-webkit-scrollbar-thumb {
+		@apply w-0;
+	}
+
+	a {
+		@apply no-underline;
+	}
+}
+
+@utility chelsea-link-primary {
+	@apply justify-center align-middle text-xl py-8;
+}
+
+@layer components {
+	.custom-scrollable-x {
+		@apply overflow-x-scroll [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none];
+	}
+}
