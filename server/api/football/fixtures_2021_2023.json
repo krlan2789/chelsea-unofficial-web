@@ -1,0 +1,4917 @@
+{
+	"get": "fixtures",
+	"parameters": {
+		"season": "2021",
+		"team": "49",
+		"from": "2020-01-01",
+		"to": "2023-12-31"
+	},
+	"errors": [],
+	"results": 70,
+	"paging": {
+		"current": 1,
+		"total": 1
+	},
+	"response": [
+		{
+			"fixture": {
+				"id": 706410,
+				"referee": "S. Karasev",
+				"timezone": "UTC",
+				"date": "2021-08-11T19:00:00+00:00",
+				"timestamp": 1628708400,
+				"periods": {
+					"first": 1628708400,
+					"second": 1628712000
+				},
+				"venue": {
+					"id": 1971,
+					"name": "Windsor Park",
+					"city": "Belfast"
+				},
+				"status": {
+					"long": "Match Finished",
+					"short": "PEN",
+					"elapsed": 120,
+					"extra": null
+				}
+			},
+			"league": {
+				"id": 531,
+				"name": "UEFA Super Cup",
+				"country": "World",
+				"logo": "https://media.api-sports.io/football/leagues/531.png",
+				"flag": null,
+				"season": 2021,
+				"round": "Final",
+				"standings": false
+			},
+			"teams": {
+				"home": {
+					"id": 49,
+					"name": "Chelsea",
+					"logo": "https://media.api-sports.io/football/teams/49.png",
+					"winner": true
+				},
+				"away": {
+					"id": 533,
+					"name": "Villarreal",
+					"logo": "https://media.api-sports.io/football/teams/533.png",
+					"winner": false
+				}
+			},
+			"goals": {
+				"home": 1,
+				"away": 1
+			},
+			"score": {
+				"halftime": {
+					"home": 1,
+					"away": 0
+				},
+				"fulltime": {
+					"home": 1,
+					"away": 1
+				},
+				"extratime": {
+					"home": 0,
+					"away": 0
+				},
+				"penalty": {
+					"home": 6,
+					"away": 5
+				}
+			}
+		},
+		{
+			"fixture": {
+				"id": 710558,
+				"referee": "J. Moss",
+				"timezone": "UTC",
+				"date": "2021-08-14T14:00:00+00:00",
+				"timestamp": 1628949600,
+				"periods": {
+					"first": 1628949600,
+					"second": 1628953200
+				},
+				"venue": {
+					"id": 519,
+					"name": "Stamford Bridge",
+					"city": "London"
+				},
+				"status": {
+					"long": "Match Finished",
+					"short": "FT",
+					"elapsed": 90,
+					"extra": null
+				}
+			},
+			"league": {
+				"id": 39,
+				"name": "Premier League",
+				"country": "England",
+				"logo": "https://media.api-sports.io/football/leagues/39.png",
+				"flag": "https://media.api-sports.io/flags/gb-eng.svg",
+				"season": 2021,
+				"round": "Regular Season - 1",
+				"standings": true
+			},
+			"teams": {
+				"home": {
+					"id": 49,
+					"name": "Chelsea",
+					"logo": "https://media.api-sports.io/football/teams/49.png",
+					"winner": true
+				},
+				"away": {
+					"id": 52,
+					"name": "Crystal Palace",
+					"logo": "https://media.api-sports.io/football/teams/52.png",
+					"winner": false
+				}
+			},
+			"goals": {
+				"home": 3,
+				"away": 0
+			},
+			"score": {
+				"halftime": {
+					"home": 2,
+					"away": 0
+				},
+				"fulltime": {
+					"home": 3,
+					"away": 0
+				},
+				"extratime": {
+					"home": null,
+					"away": null
+				},
+				"penalty": {
+					"home": null,
+					"away": null
+				}
+			}
+		},
+		{
+			"fixture": {
+				"id": 710566,
+				"referee": "P. Tierney",
+				"timezone": "UTC",
+				"date": "2021-08-22T15:30:00+00:00",
+				"timestamp": 1629646200,
+				"periods": {
+					"first": 1629646200,
+					"second": 1629649800
+				},
+				"venue": {
+					"id": 494,
+					"name": "Emirates Stadium",
+					"city": "London"
+				},
+				"status": {
+					"long": "Match Finished",
+					"short": "FT",
+					"elapsed": 90,
+					"extra": null
+				}
+			},
+			"league": {
+				"id": 39,
+				"name": "Premier League",
+				"country": "England",
+				"logo": "https://media.api-sports.io/football/leagues/39.png",
+				"flag": "https://media.api-sports.io/flags/gb-eng.svg",
+				"season": 2021,
+				"round": "Regular Season - 2",
+				"standings": true
+			},
+			"teams": {
+				"home": {
+					"id": 42,
+					"name": "Arsenal",
+					"logo": "https://media.api-sports.io/football/teams/42.png",
+					"winner": false
+				},
+				"away": {
+					"id": 49,
+					"name": "Chelsea",
+					"logo": "https://media.api-sports.io/football/teams/49.png",
+					"winner": true
+				}
+			},
+			"goals": {
+				"home": 0,
+				"away": 2
+			},
+			"score": {
+				"halftime": {
+					"home": 0,
+					"away": 2
+				},
+				"fulltime": {
+					"home": 0,
+					"away": 2
+				},
+				"extratime": {
+					"home": null,
+					"away": null
+				},
+				"penalty": {
+					"home": null,
+					"away": null
+				}
+			}
+		},
+		{
+			"fixture": {
+				"id": 710579,
+				"referee": "A. Taylor",
+				"timezone": "UTC",
+				"date": "2021-08-28T16:30:00+00:00",
+				"timestamp": 1630168200,
+				"periods": {
+					"first": 1630168200,
+					"second": 1630171800
+				},
+				"venue": {
+					"id": 550,
+					"name": "Anfield",
+					"city": "Liverpool"
+				},
+				"status": {
+					"long": "Match Finished",
+					"short": "FT",
+					"elapsed": 90,
+					"extra": null
+				}
+			},
+			"league": {
+				"id": 39,
+				"name": "Premier League",
+				"country": "England",
+				"logo": "https://media.api-sports.io/football/leagues/39.png",
+				"flag": "https://media.api-sports.io/flags/gb-eng.svg",
+				"season": 2021,
+				"round": "Regular Season - 3",
+				"standings": true
+			},
+			"teams": {
+				"home": {
+					"id": 40,
+					"name": "Liverpool",
+					"logo": "https://media.api-sports.io/football/teams/40.png",
+					"winner": null
+				},
+				"away": {
+					"id": 49,
+					"name": "Chelsea",
+					"logo": "https://media.api-sports.io/football/teams/49.png",
+					"winner": null
+				}
+			},
+			"goals": {
+				"home": 1,
+				"away": 1
+			},
+			"score": {
+				"halftime": {
+					"home": 1,
+					"away": 1
+				},
+				"fulltime": {
+					"home": 1,
+					"away": 1
+				},
+				"extratime": {
+					"home": null,
+					"away": null
+				},
+				"penalty": {
+					"home": null,
+					"away": null
+				}
+			}
+		},
+		{
+			"fixture": {
+				"id": 710588,
+				"referee": "S. Attwell",
+				"timezone": "UTC",
+				"date": "2021-09-11T16:30:00+00:00",
+				"timestamp": 1631377800,
+				"periods": {
+					"first": 1631377800,
+					"second": 1631381400
+				},
+				"venue": {
+					"id": 519,
+					"name": "Stamford Bridge",
+					"city": "London"
+				},
+				"status": {
+					"long": "Match Finished",
+					"short": "FT",
+					"elapsed": 90,
+					"extra": null
+				}
+			},
+			"league": {
+				"id": 39,
+				"name": "Premier League",
+				"country": "England",
+				"logo": "https://media.api-sports.io/football/leagues/39.png",
+				"flag": "https://media.api-sports.io/flags/gb-eng.svg",
+				"season": 2021,
+				"round": "Regular Season - 4",
+				"standings": true
+			},
+			"teams": {
+				"home": {
+					"id": 49,
+					"name": "Chelsea",
+					"logo": "https://media.api-sports.io/football/teams/49.png",
+					"winner": true
+				},
+				"away": {
+					"id": 66,
+					"name": "Aston Villa",
+					"logo": "https://media.api-sports.io/football/teams/66.png",
+					"winner": false
+				}
+			},
+			"goals": {
+				"home": 3,
+				"away": 0
+			},
+			"score": {
+				"halftime": {
+					"home": 1,
+					"away": 0
+				},
+				"fulltime": {
+					"home": 3,
+					"away": 0
+				},
+				"extratime": {
+					"home": null,
+					"away": null
+				},
+				"penalty": {
+					"home": null,
+					"away": null
+				}
+			}
+		},
+		{
+			"fixture": {
+				"id": 710603,
+				"referee": "P. Tierney",
+				"timezone": "UTC",
+				"date": "2021-09-19T15:30:00+00:00",
+				"timestamp": 1632065400,
+				"periods": {
+					"first": 1632065400,
+					"second": 1632069000
+				},
+				"venue": {
+					"id": 593,
+					"name": "Tottenham Hotspur Stadium",
+					"city": "London"
+				},
+				"status": {
+					"long": "Match Finished",
+					"short": "FT",
+					"elapsed": 90,
+					"extra": null
+				}
+			},
+			"league": {
+				"id": 39,
+				"name": "Premier League",
+				"country": "England",
+				"logo": "https://media.api-sports.io/football/leagues/39.png",
+				"flag": "https://media.api-sports.io/flags/gb-eng.svg",
+				"season": 2021,
+				"round": "Regular Season - 5",
+				"standings": true
+			},
+			"teams": {
+				"home": {
+					"id": 47,
+					"name": "Tottenham",
+					"logo": "https://media.api-sports.io/football/teams/47.png",
+					"winner": false
+				},
+				"away": {
+					"id": 49,
+					"name": "Chelsea",
+					"logo": "https://media.api-sports.io/football/teams/49.png",
+					"winner": true
+				}
+			},
+			"goals": {
+				"home": 0,
+				"away": 3
+			},
+			"score": {
+				"halftime": {
+					"home": 0,
+					"away": 0
+				},
+				"fulltime": {
+					"home": 0,
+					"away": 3
+				},
+				"extratime": {
+					"home": null,
+					"away": null
+				},
+				"penalty": {
+					"home": null,
+					"away": null
+				}
+			}
+		},
+		{
+			"fixture": {
+				"id": 710608,
+				"referee": "M. Oliver",
+				"timezone": "UTC",
+				"date": "2021-09-25T11:30:00+00:00",
+				"timestamp": 1632569400,
+				"periods": {
+					"first": 1632569400,
+					"second": 1632573000
+				},
+				"venue": {
+					"id": 519,
+					"name": "Stamford Bridge",
+					"city": "London"
+				},
+				"status": {
+					"long": "Match Finished",
+					"short": "FT",
+					"elapsed": 90,
+					"extra": null
+				}
+			},
+			"league": {
+				"id": 39,
+				"name": "Premier League",
+				"country": "England",
+				"logo": "https://media.api-sports.io/football/leagues/39.png",
+				"flag": "https://media.api-sports.io/flags/gb-eng.svg",
+				"season": 2021,
+				"round": "Regular Season - 6",
+				"standings": true
+			},
+			"teams": {
+				"home": {
+					"id": 49,
+					"name": "Chelsea",
+					"logo": "https://media.api-sports.io/football/teams/49.png",
+					"winner": false
+				},
+				"away": {
+					"id": 50,
+					"name": "Manchester City",
+					"logo": "https://media.api-sports.io/football/teams/50.png",
+					"winner": true
+				}
+			},
+			"goals": {
+				"home": 0,
+				"away": 1
+			},
+			"score": {
+				"halftime": {
+					"home": 0,
+					"away": 0
+				},
+				"fulltime": {
+					"home": 0,
+					"away": 1
+				},
+				"extratime": {
+					"home": null,
+					"away": null
+				},
+				"penalty": {
+					"home": null,
+					"away": null
+				}
+			}
+		},
+		{
+			"fixture": {
+				"id": 710618,
+				"referee": "M. Atkinson",
+				"timezone": "UTC",
+				"date": "2021-10-02T14:00:00+00:00",
+				"timestamp": 1633183200,
+				"periods": {
+					"first": 1633183200,
+					"second": 1633186800
+				},
+				"venue": {
+					"id": 519,
+					"name": "Stamford Bridge",
+					"city": "London"
+				},
+				"status": {
+					"long": "Match Finished",
+					"short": "FT",
+					"elapsed": 90,
+					"extra": null
+				}
+			},
+			"league": {
+				"id": 39,
+				"name": "Premier League",
+				"country": "England",
+				"logo": "https://media.api-sports.io/football/leagues/39.png",
+				"flag": "https://media.api-sports.io/flags/gb-eng.svg",
+				"season": 2021,
+				"round": "Regular Season - 7",
+				"standings": true
+			},
+			"teams": {
+				"home": {
+					"id": 49,
+					"name": "Chelsea",
+					"logo": "https://media.api-sports.io/football/teams/49.png",
+					"winner": true
+				},
+				"away": {
+					"id": 41,
+					"name": "Southampton",
+					"logo": "https://media.api-sports.io/football/teams/41.png",
+					"winner": false
+				}
+			},
+			"goals": {
+				"home": 3,
+				"away": 1
+			},
+			"score": {
+				"halftime": {
+					"home": 1,
+					"away": 0
+				},
+				"fulltime": {
+					"home": 3,
+					"away": 1
+				},
+				"extratime": {
+					"home": null,
+					"away": null
+				},
+				"penalty": {
+					"home": null,
+					"away": null
+				}
+			}
+		},
+		{
+			"fixture": {
+				"id": 710628,
+				"referee": "A. Taylor",
+				"timezone": "UTC",
+				"date": "2021-10-16T16:30:00+00:00",
+				"timestamp": 1634401800,
+				"periods": {
+					"first": 1634401800,
+					"second": 1634405400
+				},
+				"venue": {
+					"id": 10503,
+					"name": "Brentford Community Stadium",
+					"city": "Brentford, Middlesex"
+				},
+				"status": {
+					"long": "Match Finished",
+					"short": "FT",
+					"elapsed": 90,
+					"extra": null
+				}
+			},
+			"league": {
+				"id": 39,
+				"name": "Premier League",
+				"country": "England",
+				"logo": "https://media.api-sports.io/football/leagues/39.png",
+				"flag": "https://media.api-sports.io/flags/gb-eng.svg",
+				"season": 2021,
+				"round": "Regular Season - 8",
+				"standings": true
+			},
+			"teams": {
+				"home": {
+					"id": 55,
+					"name": "Brentford",
+					"logo": "https://media.api-sports.io/football/teams/55.png",
+					"winner": false
+				},
+				"away": {
+					"id": 49,
+					"name": "Chelsea",
+					"logo": "https://media.api-sports.io/football/teams/49.png",
+					"winner": true
+				}
+			},
+			"goals": {
+				"home": 0,
+				"away": 1
+			},
+			"score": {
+				"halftime": {
+					"home": 0,
+					"away": 1
+				},
+				"fulltime": {
+					"home": 0,
+					"away": 1
+				},
+				"extratime": {
+					"home": null,
+					"away": null
+				},
+				"penalty": {
+					"home": null,
+					"away": null
+				}
+			}
+		},
+		{
+			"fixture": {
+				"id": 710639,
+				"referee": "A. Madley",
+				"timezone": "UTC",
+				"date": "2021-10-23T11:30:00+00:00",
+				"timestamp": 1634988600,
+				"periods": {
+					"first": 1634988600,
+					"second": 1634992200
+				},
+				"venue": {
+					"id": 519,
+					"name": "Stamford Bridge",
+					"city": "London"
+				},
+				"status": {
+					"long": "Match Finished",
+					"short": "FT",
+					"elapsed": 90,
+					"extra": null
+				}
+			},
+			"league": {
+				"id": 39,
+				"name": "Premier League",
+				"country": "England",
+				"logo": "https://media.api-sports.io/football/leagues/39.png",
+				"flag": "https://media.api-sports.io/flags/gb-eng.svg",
+				"season": 2021,
+				"round": "Regular Season - 9",
+				"standings": true
+			},
+			"teams": {
+				"home": {
+					"id": 49,
+					"name": "Chelsea",
+					"logo": "https://media.api-sports.io/football/teams/49.png",
+					"winner": true
+				},
+				"away": {
+					"id": 71,
+					"name": "Norwich",
+					"logo": "https://media.api-sports.io/football/teams/71.png",
+					"winner": false
+				}
+			},
+			"goals": {
+				"home": 7,
+				"away": 0
+			},
+			"score": {
+				"halftime": {
+					"home": 3,
+					"away": 0
+				},
+				"fulltime": {
+					"home": 7,
+					"away": 0
+				},
+				"extratime": {
+					"home": null,
+					"away": null
+				},
+				"penalty": {
+					"home": null,
+					"away": null
+				}
+			}
+		},
+		{
+			"fixture": {
+				"id": 710651,
+				"referee": "P. Tierney",
+				"timezone": "UTC",
+				"date": "2021-10-30T14:00:00+00:00",
+				"timestamp": 1635602400,
+				"periods": {
+					"first": 1635602400,
+					"second": 1635606000
+				},
+				"venue": {
+					"id": 562,
+					"name": "St. James' Park",
+					"city": "Newcastle upon Tyne"
+				},
+				"status": {
+					"long": "Match Finished",
+					"short": "FT",
+					"elapsed": 90,
+					"extra": null
+				}
+			},
+			"league": {
+				"id": 39,
+				"name": "Premier League",
+				"country": "England",
+				"logo": "https://media.api-sports.io/football/leagues/39.png",
+				"flag": "https://media.api-sports.io/flags/gb-eng.svg",
+				"season": 2021,
+				"round": "Regular Season - 10",
+				"standings": true
+			},
+			"teams": {
+				"home": {
+					"id": 34,
+					"name": "Newcastle",
+					"logo": "https://media.api-sports.io/football/teams/34.png",
+					"winner": false
+				},
+				"away": {
+					"id": 49,
+					"name": "Chelsea",
+					"logo": "https://media.api-sports.io/football/teams/49.png",
+					"winner": true
+				}
+			},
+			"goals": {
+				"home": 0,
+				"away": 3
+			},
+			"score": {
+				"halftime": {
+					"home": 0,
+					"away": 0
+				},
+				"fulltime": {
+					"home": 0,
+					"away": 3
+				},
+				"extratime": {
+					"home": null,
+					"away": null
+				},
+				"penalty": {
+					"home": null,
+					"away": null
+				}
+			}
+		},
+		{
+			"fixture": {
+				"id": 710659,
+				"referee": "A. Marriner",
+				"timezone": "UTC",
+				"date": "2021-11-06T15:00:00+00:00",
+				"timestamp": 1636210800,
+				"periods": {
+					"first": 1636210800,
+					"second": 1636214400
+				},
+				"venue": {
+					"id": 519,
+					"name": "Stamford Bridge",
+					"city": "London"
+				},
+				"status": {
+					"long": "Match Finished",
+					"short": "FT",
+					"elapsed": 90,
+					"extra": null
+				}
+			},
+			"league": {
+				"id": 39,
+				"name": "Premier League",
+				"country": "England",
+				"logo": "https://media.api-sports.io/football/leagues/39.png",
+				"flag": "https://media.api-sports.io/flags/gb-eng.svg",
+				"season": 2021,
+				"round": "Regular Season - 11",
+				"standings": true
+			},
+			"teams": {
+				"home": {
+					"id": 49,
+					"name": "Chelsea",
+					"logo": "https://media.api-sports.io/football/teams/49.png",
+					"winner": null
+				},
+				"away": {
+					"id": 44,
+					"name": "Burnley",
+					"logo": "https://media.api-sports.io/football/teams/44.png",
+					"winner": null
+				}
+			},
+			"goals": {
+				"home": 1,
+				"away": 1
+			},
+			"score": {
+				"halftime": {
+					"home": 1,
+					"away": 0
+				},
+				"fulltime": {
+					"home": 1,
+					"away": 1
+				},
+				"extratime": {
+					"home": null,
+					"away": null
+				},
+				"penalty": {
+					"home": null,
+					"away": null
+				}
+			}
+		},
+		{
+			"fixture": {
+				"id": 710668,
+				"referee": "P. Tierney",
+				"timezone": "UTC",
+				"date": "2021-11-20T12:30:00+00:00",
+				"timestamp": 1637411400,
+				"periods": {
+					"first": 1637411400,
+					"second": 1637415000
+				},
+				"venue": {
+					"id": 547,
+					"name": "King Power Stadium",
+					"city": "Leicester, Leicestershire"
+				},
+				"status": {
+					"long": "Match Finished",
+					"short": "FT",
+					"elapsed": 90,
+					"extra": null
+				}
+			},
+			"league": {
+				"id": 39,
+				"name": "Premier League",
+				"country": "England",
+				"logo": "https://media.api-sports.io/football/leagues/39.png",
+				"flag": "https://media.api-sports.io/flags/gb-eng.svg",
+				"season": 2021,
+				"round": "Regular Season - 12",
+				"standings": true
+			},
+			"teams": {
+				"home": {
+					"id": 46,
+					"name": "Leicester",
+					"logo": "https://media.api-sports.io/football/teams/46.png",
+					"winner": false
+				},
+				"away": {
+					"id": 49,
+					"name": "Chelsea",
+					"logo": "https://media.api-sports.io/football/teams/49.png",
+					"winner": true
+				}
+			},
+			"goals": {
+				"home": 0,
+				"away": 3
+			},
+			"score": {
+				"halftime": {
+					"home": 0,
+					"away": 2
+				},
+				"fulltime": {
+					"home": 0,
+					"away": 3
+				},
+				"extratime": {
+					"home": null,
+					"away": null
+				},
+				"penalty": {
+					"home": null,
+					"away": null
+				}
+			}
+		},
+		{
+			"fixture": {
+				"id": 710680,
+				"referee": "A. Taylor",
+				"timezone": "UTC",
+				"date": "2021-11-28T16:30:00+00:00",
+				"timestamp": 1638117000,
+				"periods": {
+					"first": 1638117000,
+					"second": 1638120600
+				},
+				"venue": {
+					"id": 519,
+					"name": "Stamford Bridge",
+					"city": "London"
+				},
+				"status": {
+					"long": "Match Finished",
+					"short": "FT",
+					"elapsed": 90,
+					"extra": null
+				}
+			},
+			"league": {
+				"id": 39,
+				"name": "Premier League",
+				"country": "England",
+				"logo": "https://media.api-sports.io/football/leagues/39.png",
+				"flag": "https://media.api-sports.io/flags/gb-eng.svg",
+				"season": 2021,
+				"round": "Regular Season - 13",
+				"standings": true
+			},
+			"teams": {
+				"home": {
+					"id": 49,
+					"name": "Chelsea",
+					"logo": "https://media.api-sports.io/football/teams/49.png",
+					"winner": null
+				},
+				"away": {
+					"id": 33,
+					"name": "Manchester United",
+					"logo": "https://media.api-sports.io/football/teams/33.png",
+					"winner": null
+				}
+			},
+			"goals": {
+				"home": 1,
+				"away": 1
+			},
+			"score": {
+				"halftime": {
+					"home": 0,
+					"away": 0
+				},
+				"fulltime": {
+					"home": 1,
+					"away": 1
+				},
+				"extratime": {
+					"home": null,
+					"away": null
+				},
+				"penalty": {
+					"home": null,
+					"away": null
+				}
+			}
+		},
+		{
+			"fixture": {
+				"id": 710689,
+				"referee": "D. Coote",
+				"timezone": "UTC",
+				"date": "2021-12-01T19:30:00+00:00",
+				"timestamp": 1638387000,
+				"periods": {
+					"first": 1638387000,
+					"second": 1638390600
+				},
+				"venue": {
+					"id": 596,
+					"name": "Vicarage Road",
+					"city": "Watford"
+				},
+				"status": {
+					"long": "Match Finished",
+					"short": "FT",
+					"elapsed": 90,
+					"extra": null
+				}
+			},
+			"league": {
+				"id": 39,
+				"name": "Premier League",
+				"country": "England",
+				"logo": "https://media.api-sports.io/football/leagues/39.png",
+				"flag": "https://media.api-sports.io/flags/gb-eng.svg",
+				"season": 2021,
+				"round": "Regular Season - 14",
+				"standings": true
+			},
+			"teams": {
+				"home": {
+					"id": 38,
+					"name": "Watford",
+					"logo": "https://media.api-sports.io/football/teams/38.png",
+					"winner": false
+				},
+				"away": {
+					"id": 49,
+					"name": "Chelsea",
+					"logo": "https://media.api-sports.io/football/teams/49.png",
+					"winner": true
+				}
+			},
+			"goals": {
+				"home": 1,
+				"away": 2
+			},
+			"score": {
+				"halftime": {
+					"home": 1,
+					"away": 1
+				},
+				"fulltime": {
+					"home": 1,
+					"away": 2
+				},
+				"extratime": {
+					"home": null,
+					"away": null
+				},
+				"penalty": {
+					"home": null,
+					"away": null
+				}
+			}
+		},
+		{
+			"fixture": {
+				"id": 710704,
+				"referee": "A. Marriner",
+				"timezone": "UTC",
+				"date": "2021-12-04T12:30:00+00:00",
+				"timestamp": 1638621000,
+				"periods": {
+					"first": 1638621000,
+					"second": 1638624600
+				},
+				"venue": {
+					"id": 598,
+					"name": "London Stadium",
+					"city": "London"
+				},
+				"status": {
+					"long": "Match Finished",
+					"short": "FT",
+					"elapsed": 90,
+					"extra": null
+				}
+			},
+			"league": {
+				"id": 39,
+				"name": "Premier League",
+				"country": "England",
+				"logo": "https://media.api-sports.io/football/leagues/39.png",
+				"flag": "https://media.api-sports.io/flags/gb-eng.svg",
+				"season": 2021,
+				"round": "Regular Season - 15",
+				"standings": true
+			},
+			"teams": {
+				"home": {
+					"id": 48,
+					"name": "West Ham",
+					"logo": "https://media.api-sports.io/football/teams/48.png",
+					"winner": true
+				},
+				"away": {
+					"id": 49,
+					"name": "Chelsea",
+					"logo": "https://media.api-sports.io/football/teams/49.png",
+					"winner": false
+				}
+			},
+			"goals": {
+				"home": 3,
+				"away": 2
+			},
+			"score": {
+				"halftime": {
+					"home": 1,
+					"away": 2
+				},
+				"fulltime": {
+					"home": 3,
+					"away": 2
+				},
+				"extratime": {
+					"home": null,
+					"away": null
+				},
+				"penalty": {
+					"home": null,
+					"away": null
+				}
+			}
+		},
+		{
+			"fixture": {
+				"id": 710710,
+				"referee": "C. Kavanagh",
+				"timezone": "UTC",
+				"date": "2021-12-11T15:00:00+00:00",
+				"timestamp": 1639234800,
+				"periods": {
+					"first": 1639234800,
+					"second": 1639238400
+				},
+				"venue": {
+					"id": 519,
+					"name": "Stamford Bridge",
+					"city": "London"
+				},
+				"status": {
+					"long": "Match Finished",
+					"short": "FT",
+					"elapsed": 90,
+					"extra": null
+				}
+			},
+			"league": {
+				"id": 39,
+				"name": "Premier League",
+				"country": "England",
+				"logo": "https://media.api-sports.io/football/leagues/39.png",
+				"flag": "https://media.api-sports.io/flags/gb-eng.svg",
+				"season": 2021,
+				"round": "Regular Season - 16",
+				"standings": true
+			},
+			"teams": {
+				"home": {
+					"id": 49,
+					"name": "Chelsea",
+					"logo": "https://media.api-sports.io/football/teams/49.png",
+					"winner": true
+				},
+				"away": {
+					"id": 63,
+					"name": "Leeds",
+					"logo": "https://media.api-sports.io/football/teams/63.png",
+					"winner": false
+				}
+			},
+			"goals": {
+				"home": 3,
+				"away": 2
+			},
+			"score": {
+				"halftime": {
+					"home": 1,
+					"away": 1
+				},
+				"fulltime": {
+					"home": 3,
+					"away": 2
+				},
+				"extratime": {
+					"home": null,
+					"away": null
+				},
+				"penalty": {
+					"home": null,
+					"away": null
+				}
+			}
+		},
+		{
+			"fixture": {
+				"id": 710723,
+				"referee": "M. Oliver",
+				"timezone": "UTC",
+				"date": "2021-12-16T19:45:00+00:00",
+				"timestamp": 1639683900,
+				"periods": {
+					"first": 1639683900,
+					"second": 1639687500
+				},
+				"venue": {
+					"id": 519,
+					"name": "Stamford Bridge",
+					"city": "London"
+				},
+				"status": {
+					"long": "Match Finished",
+					"short": "FT",
+					"elapsed": 90,
+					"extra": null
+				}
+			},
+			"league": {
+				"id": 39,
+				"name": "Premier League",
+				"country": "England",
+				"logo": "https://media.api-sports.io/football/leagues/39.png",
+				"flag": "https://media.api-sports.io/flags/gb-eng.svg",
+				"season": 2021,
+				"round": "Regular Season - 17",
+				"standings": true
+			},
+			"teams": {
+				"home": {
+					"id": 49,
+					"name": "Chelsea",
+					"logo": "https://media.api-sports.io/football/teams/49.png",
+					"winner": null
+				},
+				"away": {
+					"id": 45,
+					"name": "Everton",
+					"logo": "https://media.api-sports.io/football/teams/45.png",
+					"winner": null
+				}
+			},
+			"goals": {
+				"home": 1,
+				"away": 1
+			},
+			"score": {
+				"halftime": {
+					"home": 0,
+					"away": 0
+				},
+				"fulltime": {
+					"home": 1,
+					"away": 1
+				},
+				"extratime": {
+					"home": null,
+					"away": null
+				},
+				"penalty": {
+					"home": null,
+					"away": null
+				}
+			}
+		},
+		{
+			"fixture": {
+				"id": 710735,
+				"referee": "D. Coote",
+				"timezone": "UTC",
+				"date": "2021-12-19T14:00:00+00:00",
+				"timestamp": 1639922400,
+				"periods": {
+					"first": 1639922400,
+					"second": 1639926000
+				},
+				"venue": {
+					"id": 600,
+					"name": "Molineux Stadium",
+					"city": "Wolverhampton, West Midlands"
+				},
+				"status": {
+					"long": "Match Finished",
+					"short": "FT",
+					"elapsed": 90,
+					"extra": null
+				}
+			},
+			"league": {
+				"id": 39,
+				"name": "Premier League",
+				"country": "England",
+				"logo": "https://media.api-sports.io/football/leagues/39.png",
+				"flag": "https://media.api-sports.io/flags/gb-eng.svg",
+				"season": 2021,
+				"round": "Regular Season - 18",
+				"standings": true
+			},
+			"teams": {
+				"home": {
+					"id": 39,
+					"name": "Wolves",
+					"logo": "https://media.api-sports.io/football/teams/39.png",
+					"winner": null
+				},
+				"away": {
+					"id": 49,
+					"name": "Chelsea",
+					"logo": "https://media.api-sports.io/football/teams/49.png",
+					"winner": null
+				}
+			},
+			"goals": {
+				"home": 0,
+				"away": 0
+			},
+			"score": {
+				"halftime": {
+					"home": 0,
+					"away": 0
+				},
+				"fulltime": {
+					"home": 0,
+					"away": 0
+				},
+				"extratime": {
+					"home": null,
+					"away": null
+				},
+				"penalty": {
+					"home": null,
+					"away": null
+				}
+			}
+		},
+		{
+			"fixture": {
+				"id": 710736,
+				"referee": "M. Atkinson",
+				"timezone": "UTC",
+				"date": "2021-12-26T17:30:00+00:00",
+				"timestamp": 1640539800,
+				"periods": {
+					"first": 1640539800,
+					"second": 1640543400
+				},
+				"venue": {
+					"id": 495,
+					"name": "Villa Park",
+					"city": "Birmingham"
+				},
+				"status": {
+					"long": "Match Finished",
+					"short": "FT",
+					"elapsed": 90,
+					"extra": null
+				}
+			},
+			"league": {
+				"id": 39,
+				"name": "Premier League",
+				"country": "England",
+				"logo": "https://media.api-sports.io/football/leagues/39.png",
+				"flag": "https://media.api-sports.io/flags/gb-eng.svg",
+				"season": 2021,
+				"round": "Regular Season - 19",
+				"standings": true
+			},
+			"teams": {
+				"home": {
+					"id": 66,
+					"name": "Aston Villa",
+					"logo": "https://media.api-sports.io/football/teams/66.png",
+					"winner": false
+				},
+				"away": {
+					"id": 49,
+					"name": "Chelsea",
+					"logo": "https://media.api-sports.io/football/teams/49.png",
+					"winner": true
+				}
+			},
+			"goals": {
+				"home": 1,
+				"away": 3
+			},
+			"score": {
+				"halftime": {
+					"home": 1,
+					"away": 1
+				},
+				"fulltime": {
+					"home": 1,
+					"away": 3
+				},
+				"extratime": {
+					"home": null,
+					"away": null
+				},
+				"penalty": {
+					"home": null,
+					"away": null
+				}
+			}
+		},
+		{
+			"fixture": {
+				"id": 710748,
+				"referee": "M. Dean",
+				"timezone": "UTC",
+				"date": "2021-12-29T19:30:00+00:00",
+				"timestamp": 1640806200,
+				"periods": {
+					"first": 1640806200,
+					"second": 1640809800
+				},
+				"venue": {
+					"id": 519,
+					"name": "Stamford Bridge",
+					"city": "London"
+				},
+				"status": {
+					"long": "Match Finished",
+					"short": "FT",
+					"elapsed": 90,
+					"extra": null
+				}
+			},
+			"league": {
+				"id": 39,
+				"name": "Premier League",
+				"country": "England",
+				"logo": "https://media.api-sports.io/football/leagues/39.png",
+				"flag": "https://media.api-sports.io/flags/gb-eng.svg",
+				"season": 2021,
+				"round": "Regular Season - 20",
+				"standings": true
+			},
+			"teams": {
+				"home": {
+					"id": 49,
+					"name": "Chelsea",
+					"logo": "https://media.api-sports.io/football/teams/49.png",
+					"winner": null
+				},
+				"away": {
+					"id": 51,
+					"name": "Brighton",
+					"logo": "https://media.api-sports.io/football/teams/51.png",
+					"winner": null
+				}
+			},
+			"goals": {
+				"home": 1,
+				"away": 1
+			},
+			"score": {
+				"halftime": {
+					"home": 1,
+					"away": 0
+				},
+				"fulltime": {
+					"home": 1,
+					"away": 1
+				},
+				"extratime": {
+					"home": null,
+					"away": null
+				},
+				"penalty": {
+					"home": null,
+					"away": null
+				}
+			}
+		},
+		{
+			"fixture": {
+				"id": 710758,
+				"referee": "A. Taylor",
+				"timezone": "UTC",
+				"date": "2022-01-02T16:30:00+00:00",
+				"timestamp": 1641141000,
+				"periods": {
+					"first": 1641141000,
+					"second": 1641144600
+				},
+				"venue": {
+					"id": 519,
+					"name": "Stamford Bridge",
+					"city": "London"
+				},
+				"status": {
+					"long": "Match Finished",
+					"short": "FT",
+					"elapsed": 90,
+					"extra": null
+				}
+			},
+			"league": {
+				"id": 39,
+				"name": "Premier League",
+				"country": "England",
+				"logo": "https://media.api-sports.io/football/leagues/39.png",
+				"flag": "https://media.api-sports.io/flags/gb-eng.svg",
+				"season": 2021,
+				"round": "Regular Season - 21",
+				"standings": true
+			},
+			"teams": {
+				"home": {
+					"id": 49,
+					"name": "Chelsea",
+					"logo": "https://media.api-sports.io/football/teams/49.png",
+					"winner": null
+				},
+				"away": {
+					"id": 40,
+					"name": "Liverpool",
+					"logo": "https://media.api-sports.io/football/teams/40.png",
+					"winner": null
+				}
+			},
+			"goals": {
+				"home": 2,
+				"away": 2
+			},
+			"score": {
+				"halftime": {
+					"home": 2,
+					"away": 2
+				},
+				"fulltime": {
+					"home": 2,
+					"away": 2
+				},
+				"extratime": {
+					"home": null,
+					"away": null
+				},
+				"penalty": {
+					"home": null,
+					"away": null
+				}
+			}
+		},
+		{
+			"fixture": {
+				"id": 710770,
+				"referee": "C. Pawson",
+				"timezone": "UTC",
+				"date": "2022-01-15T12:30:00+00:00",
+				"timestamp": 1642249800,
+				"periods": {
+					"first": 1642249800,
+					"second": 1642253400
+				},
+				"venue": {
+					"id": 555,
+					"name": "Etihad Stadium",
+					"city": "Manchester"
+				},
+				"status": {
+					"long": "Match Finished",
+					"short": "FT",
+					"elapsed": 90,
+					"extra": null
+				}
+			},
+			"league": {
+				"id": 39,
+				"name": "Premier League",
+				"country": "England",
+				"logo": "https://media.api-sports.io/football/leagues/39.png",
+				"flag": "https://media.api-sports.io/flags/gb-eng.svg",
+				"season": 2021,
+				"round": "Regular Season - 22",
+				"standings": true
+			},
+			"teams": {
+				"home": {
+					"id": 50,
+					"name": "Manchester City",
+					"logo": "https://media.api-sports.io/football/teams/50.png",
+					"winner": true
+				},
+				"away": {
+					"id": 49,
+					"name": "Chelsea",
+					"logo": "https://media.api-sports.io/football/teams/49.png",
+					"winner": false
+				}
+			},
+			"goals": {
+				"home": 1,
+				"away": 0
+			},
+			"score": {
+				"halftime": {
+					"home": 0,
+					"away": 0
+				},
+				"fulltime": {
+					"home": 1,
+					"away": 0
+				},
+				"extratime": {
+					"home": null,
+					"away": null
+				},
+				"penalty": {
+					"home": null,
+					"away": null
+				}
+			}
+		},
+		{
+			"fixture": {
+				"id": 710778,
+				"referee": "P. Tierney",
+				"timezone": "UTC",
+				"date": "2022-01-23T16:30:00+00:00",
+				"timestamp": 1642955400,
+				"periods": {
+					"first": 1642955400,
+					"second": 1642959000
+				},
+				"venue": {
+					"id": 519,
+					"name": "Stamford Bridge",
+					"city": "London"
+				},
+				"status": {
+					"long": "Match Finished",
+					"short": "FT",
+					"elapsed": 90,
+					"extra": null
+				}
+			},
+			"league": {
+				"id": 39,
+				"name": "Premier League",
+				"country": "England",
+				"logo": "https://media.api-sports.io/football/leagues/39.png",
+				"flag": "https://media.api-sports.io/flags/gb-eng.svg",
+				"season": 2021,
+				"round": "Regular Season - 23",
+				"standings": true
+			},
+			"teams": {
+				"home": {
+					"id": 49,
+					"name": "Chelsea",
+					"logo": "https://media.api-sports.io/football/teams/49.png",
+					"winner": true
+				},
+				"away": {
+					"id": 47,
+					"name": "Tottenham",
+					"logo": "https://media.api-sports.io/football/teams/47.png",
+					"winner": false
+				}
+			},
+			"goals": {
+				"home": 2,
+				"away": 0
+			},
+			"score": {
+				"halftime": {
+					"home": 0,
+					"away": 0
+				},
+				"fulltime": {
+					"home": 2,
+					"away": 0
+				},
+				"extratime": {
+					"home": null,
+					"away": null
+				},
+				"penalty": {
+					"home": null,
+					"away": null
+				}
+			}
+		},
+		{
+			"fixture": {
+				"id": 710787,
+				"referee": "K. Friend",
+				"timezone": "UTC",
+				"date": "2022-01-18T20:00:00+00:00",
+				"timestamp": 1642536000,
+				"periods": {
+					"first": 1642536000,
+					"second": 1642539600
+				},
+				"venue": {
+					"id": 508,
+					"name": "The American Express Community Stadium",
+					"city": "Falmer, East Sussex"
+				},
+				"status": {
+					"long": "Match Finished",
+					"short": "FT",
+					"elapsed": 90,
+					"extra": null
+				}
+			},
+			"league": {
+				"id": 39,
+				"name": "Premier League",
+				"country": "England",
+				"logo": "https://media.api-sports.io/football/leagues/39.png",
+				"flag": "https://media.api-sports.io/flags/gb-eng.svg",
+				"season": 2021,
+				"round": "Regular Season - 24",
+				"standings": true
+			},
+			"teams": {
+				"home": {
+					"id": 51,
+					"name": "Brighton",
+					"logo": "https://media.api-sports.io/football/teams/51.png",
+					"winner": null
+				},
+				"away": {
+					"id": 49,
+					"name": "Chelsea",
+					"logo": "https://media.api-sports.io/football/teams/49.png",
+					"winner": null
+				}
+			},
+			"goals": {
+				"home": 1,
+				"away": 1
+			},
+			"score": {
+				"halftime": {
+					"home": 0,
+					"away": 1
+				},
+				"fulltime": {
+					"home": 1,
+					"away": 1
+				},
+				"extratime": {
+					"home": null,
+					"away": null
+				},
+				"penalty": {
+					"home": null,
+					"away": null
+				}
+			}
+		},
+		{
+			"fixture": {
+				"id": 710798,
+				"referee": "J. Moss",
+				"timezone": "UTC",
+				"date": "2022-04-20T18:45:00+00:00",
+				"timestamp": 1650480300,
+				"periods": {
+					"first": 1650480300,
+					"second": 1650483900
+				},
+				"venue": {
+					"id": 519,
+					"name": "Stamford Bridge",
+					"city": "London"
+				},
+				"status": {
+					"long": "Match Finished",
+					"short": "FT",
+					"elapsed": 90,
+					"extra": null
+				}
+			},
+			"league": {
+				"id": 39,
+				"name": "Premier League",
+				"country": "England",
+				"logo": "https://media.api-sports.io/football/leagues/39.png",
+				"flag": "https://media.api-sports.io/flags/gb-eng.svg",
+				"season": 2021,
+				"round": "Regular Season - 25",
+				"standings": true
+			},
+			"teams": {
+				"home": {
+					"id": 49,
+					"name": "Chelsea",
+					"logo": "https://media.api-sports.io/football/teams/49.png",
+					"winner": false
+				},
+				"away": {
+					"id": 42,
+					"name": "Arsenal",
+					"logo": "https://media.api-sports.io/football/teams/42.png",
+					"winner": true
+				}
+			},
+			"goals": {
+				"home": 2,
+				"away": 4
+			},
+			"score": {
+				"halftime": {
+					"home": 2,
+					"away": 2
+				},
+				"fulltime": {
+					"home": 2,
+					"away": 4
+				},
+				"extratime": {
+					"home": null,
+					"away": null
+				},
+				"penalty": {
+					"home": null,
+					"away": null
+				}
+			}
+		},
+		{
+			"fixture": {
+				"id": 710809,
+				"referee": "D. Coote",
+				"timezone": "UTC",
+				"date": "2022-02-19T15:00:00+00:00",
+				"timestamp": 1645282800,
+				"periods": {
+					"first": 1645282800,
+					"second": 1645286400
+				},
+				"venue": {
+					"id": 525,
+					"name": "Selhurst Park",
+					"city": "London"
+				},
+				"status": {
+					"long": "Match Finished",
+					"short": "FT",
+					"elapsed": 90,
+					"extra": null
+				}
+			},
+			"league": {
+				"id": 39,
+				"name": "Premier League",
+				"country": "England",
+				"logo": "https://media.api-sports.io/football/leagues/39.png",
+				"flag": "https://media.api-sports.io/flags/gb-eng.svg",
+				"season": 2021,
+				"round": "Regular Season - 26",
+				"standings": true
+			},
+			"teams": {
+				"home": {
+					"id": 52,
+					"name": "Crystal Palace",
+					"logo": "https://media.api-sports.io/football/teams/52.png",
+					"winner": false
+				},
+				"away": {
+					"id": 49,
+					"name": "Chelsea",
+					"logo": "https://media.api-sports.io/football/teams/49.png",
+					"winner": true
+				}
+			},
+			"goals": {
+				"home": 0,
+				"away": 1
+			},
+			"score": {
+				"halftime": {
+					"home": 0,
+					"away": 0
+				},
+				"fulltime": {
+					"home": 0,
+					"away": 1
+				},
+				"extratime": {
+					"home": null,
+					"away": null
+				},
+				"penalty": {
+					"home": null,
+					"away": null
+				}
+			}
+		},
+		{
+			"fixture": {
+				"id": 710819,
+				"referee": "S. Attwell",
+				"timezone": "UTC",
+				"date": "2022-05-19T19:00:00+00:00",
+				"timestamp": 1652986800,
+				"periods": {
+					"first": 1652986800,
+					"second": 1652990400
+				},
+				"venue": {
+					"id": 519,
+					"name": "Stamford Bridge",
+					"city": "London"
+				},
+				"status": {
+					"long": "Match Finished",
+					"short": "FT",
+					"elapsed": 90,
+					"extra": null
+				}
+			},
+			"league": {
+				"id": 39,
+				"name": "Premier League",
+				"country": "England",
+				"logo": "https://media.api-sports.io/football/leagues/39.png",
+				"flag": "https://media.api-sports.io/flags/gb-eng.svg",
+				"season": 2021,
+				"round": "Regular Season - 27",
+				"standings": true
+			},
+			"teams": {
+				"home": {
+					"id": 49,
+					"name": "Chelsea",
+					"logo": "https://media.api-sports.io/football/teams/49.png",
+					"winner": null
+				},
+				"away": {
+					"id": 46,
+					"name": "Leicester",
+					"logo": "https://media.api-sports.io/football/teams/46.png",
+					"winner": null
+				}
+			},
+			"goals": {
+				"home": 1,
+				"away": 1
+			},
+			"score": {
+				"halftime": {
+					"home": 1,
+					"away": 1
+				},
+				"fulltime": {
+					"home": 1,
+					"away": 1
+				},
+				"extratime": {
+					"home": null,
+					"away": null
+				},
+				"penalty": {
+					"home": null,
+					"away": null
+				}
+			}
+		},
+		{
+			"fixture": {
+				"id": 710827,
+				"referee": "A. Marriner",
+				"timezone": "UTC",
+				"date": "2022-03-05T15:00:00+00:00",
+				"timestamp": 1646492400,
+				"periods": {
+					"first": 1646492400,
+					"second": 1646496000
+				},
+				"venue": {
+					"id": 512,
+					"name": "Turf Moor",
+					"city": "Burnley"
+				},
+				"status": {
+					"long": "Match Finished",
+					"short": "FT",
+					"elapsed": 90,
+					"extra": null
+				}
+			},
+			"league": {
+				"id": 39,
+				"name": "Premier League",
+				"country": "England",
+				"logo": "https://media.api-sports.io/football/leagues/39.png",
+				"flag": "https://media.api-sports.io/flags/gb-eng.svg",
+				"season": 2021,
+				"round": "Regular Season - 28",
+				"standings": true
+			},
+			"teams": {
+				"home": {
+					"id": 44,
+					"name": "Burnley",
+					"logo": "https://media.api-sports.io/football/teams/44.png",
+					"winner": false
+				},
+				"away": {
+					"id": 49,
+					"name": "Chelsea",
+					"logo": "https://media.api-sports.io/football/teams/49.png",
+					"winner": true
+				}
+			},
+			"goals": {
+				"home": 0,
+				"away": 4
+			},
+			"score": {
+				"halftime": {
+					"home": 0,
+					"away": 0
+				},
+				"fulltime": {
+					"home": 0,
+					"away": 4
+				},
+				"extratime": {
+					"home": null,
+					"away": null
+				},
+				"penalty": {
+					"home": null,
+					"away": null
+				}
+			}
+		},
+		{
+			"fixture": {
+				"id": 710839,
+				"referee": "D. Coote",
+				"timezone": "UTC",
+				"date": "2022-03-13T14:00:00+00:00",
+				"timestamp": 1647180000,
+				"periods": {
+					"first": 1647180000,
+					"second": 1647183600
+				},
+				"venue": {
+					"id": 519,
+					"name": "Stamford Bridge",
+					"city": "London"
+				},
+				"status": {
+					"long": "Match Finished",
+					"short": "FT",
+					"elapsed": 90,
+					"extra": null
+				}
+			},
+			"league": {
+				"id": 39,
+				"name": "Premier League",
+				"country": "England",
+				"logo": "https://media.api-sports.io/football/leagues/39.png",
+				"flag": "https://media.api-sports.io/flags/gb-eng.svg",
+				"season": 2021,
+				"round": "Regular Season - 29",
+				"standings": true
+			},
+			"teams": {
+				"home": {
+					"id": 49,
+					"name": "Chelsea",
+					"logo": "https://media.api-sports.io/football/teams/49.png",
+					"winner": true
+				},
+				"away": {
+					"id": 34,
+					"name": "Newcastle",
+					"logo": "https://media.api-sports.io/football/teams/34.png",
+					"winner": false
+				}
+			},
+			"goals": {
+				"home": 1,
+				"away": 0
+			},
+			"score": {
+				"halftime": {
+					"home": 0,
+					"away": 0
+				},
+				"fulltime": {
+					"home": 1,
+					"away": 0
+				},
+				"extratime": {
+					"home": null,
+					"away": null
+				},
+				"penalty": {
+					"home": null,
+					"away": null
+				}
+			}
+		},
+		{
+			"fixture": {
+				"id": 710852,
+				"referee": "M. Atkinson",
+				"timezone": "UTC",
+				"date": "2022-03-10T19:30:00+00:00",
+				"timestamp": 1646940600,
+				"periods": {
+					"first": 1646940600,
+					"second": 1646944200
+				},
+				"venue": {
+					"id": 565,
+					"name": "Carrow Road",
+					"city": "Norwich, Norfolk"
+				},
+				"status": {
+					"long": "Match Finished",
+					"short": "FT",
+					"elapsed": 90,
+					"extra": null
+				}
+			},
+			"league": {
+				"id": 39,
+				"name": "Premier League",
+				"country": "England",
+				"logo": "https://media.api-sports.io/football/leagues/39.png",
+				"flag": "https://media.api-sports.io/flags/gb-eng.svg",
+				"season": 2021,
+				"round": "Regular Season - 30",
+				"standings": true
+			},
+			"teams": {
+				"home": {
+					"id": 71,
+					"name": "Norwich",
+					"logo": "https://media.api-sports.io/football/teams/71.png",
+					"winner": false
+				},
+				"away": {
+					"id": 49,
+					"name": "Chelsea",
+					"logo": "https://media.api-sports.io/football/teams/49.png",
+					"winner": true
+				}
+			},
+			"goals": {
+				"home": 1,
+				"away": 3
+			},
+			"score": {
+				"halftime": {
+					"home": 0,
+					"away": 2
+				},
+				"fulltime": {
+					"home": 1,
+					"away": 3
+				},
+				"extratime": {
+					"home": null,
+					"away": null
+				},
+				"penalty": {
+					"home": null,
+					"away": null
+				}
+			}
+		},
+		{
+			"fixture": {
+				"id": 710858,
+				"referee": "A. Madley",
+				"timezone": "UTC",
+				"date": "2022-04-02T14:00:00+00:00",
+				"timestamp": 1648908000,
+				"periods": {
+					"first": 1648908000,
+					"second": 1648911600
+				},
+				"venue": {
+					"id": 519,
+					"name": "Stamford Bridge",
+					"city": "London"
+				},
+				"status": {
+					"long": "Match Finished",
+					"short": "FT",
+					"elapsed": 90,
+					"extra": null
+				}
+			},
+			"league": {
+				"id": 39,
+				"name": "Premier League",
+				"country": "England",
+				"logo": "https://media.api-sports.io/football/leagues/39.png",
+				"flag": "https://media.api-sports.io/flags/gb-eng.svg",
+				"season": 2021,
+				"round": "Regular Season - 31",
+				"standings": true
+			},
+			"teams": {
+				"home": {
+					"id": 49,
+					"name": "Chelsea",
+					"logo": "https://media.api-sports.io/football/teams/49.png",
+					"winner": false
+				},
+				"away": {
+					"id": 55,
+					"name": "Brentford",
+					"logo": "https://media.api-sports.io/football/teams/55.png",
+					"winner": true
+				}
+			},
+			"goals": {
+				"home": 1,
+				"away": 4
+			},
+			"score": {
+				"halftime": {
+					"home": 0,
+					"away": 0
+				},
+				"fulltime": {
+					"home": 1,
+					"away": 4
+				},
+				"extratime": {
+					"home": null,
+					"away": null
+				},
+				"penalty": {
+					"home": null,
+					"away": null
+				}
+			}
+		},
+		{
+			"fixture": {
+				"id": 710874,
+				"referee": "K. Friend",
+				"timezone": "UTC",
+				"date": "2022-04-09T14:00:00+00:00",
+				"timestamp": 1649512800,
+				"periods": {
+					"first": 1649512800,
+					"second": 1649516400
+				},
+				"venue": {
+					"id": 585,
+					"name": "St. Mary's Stadium",
+					"city": "Southampton, Hampshire"
+				},
+				"status": {
+					"long": "Match Finished",
+					"short": "FT",
+					"elapsed": 90,
+					"extra": null
+				}
+			},
+			"league": {
+				"id": 39,
+				"name": "Premier League",
+				"country": "England",
+				"logo": "https://media.api-sports.io/football/leagues/39.png",
+				"flag": "https://media.api-sports.io/flags/gb-eng.svg",
+				"season": 2021,
+				"round": "Regular Season - 32",
+				"standings": true
+			},
+			"teams": {
+				"home": {
+					"id": 41,
+					"name": "Southampton",
+					"logo": "https://media.api-sports.io/football/teams/41.png",
+					"winner": false
+				},
+				"away": {
+					"id": 49,
+					"name": "Chelsea",
+					"logo": "https://media.api-sports.io/football/teams/49.png",
+					"winner": true
+				}
+			},
+			"goals": {
+				"home": 0,
+				"away": 6
+			},
+			"score": {
+				"halftime": {
+					"home": 0,
+					"away": 4
+				},
+				"fulltime": {
+					"home": 0,
+					"away": 6
+				},
+				"extratime": {
+					"home": null,
+					"away": null
+				},
+				"penalty": {
+					"home": null,
+					"away": null
+				}
+			}
+		},
+		{
+			"fixture": {
+				"id": 710878,
+				"referee": "A. Taylor",
+				"timezone": "UTC",
+				"date": "2022-05-11T18:30:00+00:00",
+				"timestamp": 1652293800,
+				"periods": {
+					"first": 1652293800,
+					"second": 1652297400
+				},
+				"venue": {
+					"id": 546,
+					"name": "Elland Road",
+					"city": "Leeds, West Yorkshire"
+				},
+				"status": {
+					"long": "Match Finished",
+					"short": "FT",
+					"elapsed": 90,
+					"extra": null
+				}
+			},
+			"league": {
+				"id": 39,
+				"name": "Premier League",
+				"country": "England",
+				"logo": "https://media.api-sports.io/football/leagues/39.png",
+				"flag": "https://media.api-sports.io/flags/gb-eng.svg",
+				"season": 2021,
+				"round": "Regular Season - 33",
+				"standings": true
+			},
+			"teams": {
+				"home": {
+					"id": 63,
+					"name": "Leeds",
+					"logo": "https://media.api-sports.io/football/teams/63.png",
+					"winner": false
+				},
+				"away": {
+					"id": 49,
+					"name": "Chelsea",
+					"logo": "https://media.api-sports.io/football/teams/49.png",
+					"winner": true
+				}
+			},
+			"goals": {
+				"home": 0,
+				"away": 3
+			},
+			"score": {
+				"halftime": {
+					"home": 0,
+					"away": 1
+				},
+				"fulltime": {
+					"home": 0,
+					"away": 3
+				},
+				"extratime": {
+					"home": null,
+					"away": null
+				},
+				"penalty": {
+					"home": null,
+					"away": null
+				}
+			}
+		},
+		{
+			"fixture": {
+				"id": 710890,
+				"referee": "M. Oliver",
+				"timezone": "UTC",
+				"date": "2022-04-24T13:00:00+00:00",
+				"timestamp": 1650805200,
+				"periods": {
+					"first": 1650805200,
+					"second": 1650808800
+				},
+				"venue": {
+					"id": 519,
+					"name": "Stamford Bridge",
+					"city": "London"
+				},
+				"status": {
+					"long": "Match Finished",
+					"short": "FT",
+					"elapsed": 90,
+					"extra": null
+				}
+			},
+			"league": {
+				"id": 39,
+				"name": "Premier League",
+				"country": "England",
+				"logo": "https://media.api-sports.io/football/leagues/39.png",
+				"flag": "https://media.api-sports.io/flags/gb-eng.svg",
+				"season": 2021,
+				"round": "Regular Season - 34",
+				"standings": true
+			},
+			"teams": {
+				"home": {
+					"id": 49,
+					"name": "Chelsea",
+					"logo": "https://media.api-sports.io/football/teams/49.png",
+					"winner": true
+				},
+				"away": {
+					"id": 48,
+					"name": "West Ham",
+					"logo": "https://media.api-sports.io/football/teams/48.png",
+					"winner": false
+				}
+			},
+			"goals": {
+				"home": 1,
+				"away": 0
+			},
+			"score": {
+				"halftime": {
+					"home": 0,
+					"away": 0
+				},
+				"fulltime": {
+					"home": 1,
+					"away": 0
+				},
+				"extratime": {
+					"home": null,
+					"away": null
+				},
+				"penalty": {
+					"home": null,
+					"away": null
+				}
+			}
+		},
+		{
+			"fixture": {
+				"id": 710897,
+				"referee": "K. Friend",
+				"timezone": "UTC",
+				"date": "2022-05-01T13:00:00+00:00",
+				"timestamp": 1651410000,
+				"periods": {
+					"first": 1651410000,
+					"second": 1651413600
+				},
+				"venue": {
+					"id": 8560,
+					"name": "Goodison Park",
+					"city": "Liverpool"
+				},
+				"status": {
+					"long": "Match Finished",
+					"short": "FT",
+					"elapsed": 90,
+					"extra": null
+				}
+			},
+			"league": {
+				"id": 39,
+				"name": "Premier League",
+				"country": "England",
+				"logo": "https://media.api-sports.io/football/leagues/39.png",
+				"flag": "https://media.api-sports.io/flags/gb-eng.svg",
+				"season": 2021,
+				"round": "Regular Season - 35",
+				"standings": true
+			},
+			"teams": {
+				"home": {
+					"id": 45,
+					"name": "Everton",
+					"logo": "https://media.api-sports.io/football/teams/45.png",
+					"winner": true
+				},
+				"away": {
+					"id": 49,
+					"name": "Chelsea",
+					"logo": "https://media.api-sports.io/football/teams/49.png",
+					"winner": false
+				}
+			},
+			"goals": {
+				"home": 1,
+				"away": 0
+			},
+			"score": {
+				"halftime": {
+					"home": 0,
+					"away": 0
+				},
+				"fulltime": {
+					"home": 1,
+					"away": 0
+				},
+				"extratime": {
+					"home": null,
+					"away": null
+				},
+				"penalty": {
+					"home": null,
+					"away": null
+				}
+			}
+		},
+		{
+			"fixture": {
+				"id": 710910,
+				"referee": "P. Bankes",
+				"timezone": "UTC",
+				"date": "2022-05-07T14:00:00+00:00",
+				"timestamp": 1651932000,
+				"periods": {
+					"first": 1651932000,
+					"second": 1651935600
+				},
+				"venue": {
+					"id": 519,
+					"name": "Stamford Bridge",
+					"city": "London"
+				},
+				"status": {
+					"long": "Match Finished",
+					"short": "FT",
+					"elapsed": 90,
+					"extra": null
+				}
+			},
+			"league": {
+				"id": 39,
+				"name": "Premier League",
+				"country": "England",
+				"logo": "https://media.api-sports.io/football/leagues/39.png",
+				"flag": "https://media.api-sports.io/flags/gb-eng.svg",
+				"season": 2021,
+				"round": "Regular Season - 36",
+				"standings": true
+			},
+			"teams": {
+				"home": {
+					"id": 49,
+					"name": "Chelsea",
+					"logo": "https://media.api-sports.io/football/teams/49.png",
+					"winner": null
+				},
+				"away": {
+					"id": 39,
+					"name": "Wolves",
+					"logo": "https://media.api-sports.io/football/teams/39.png",
+					"winner": null
+				}
+			},
+			"goals": {
+				"home": 2,
+				"away": 2
+			},
+			"score": {
+				"halftime": {
+					"home": 0,
+					"away": 0
+				},
+				"fulltime": {
+					"home": 2,
+					"away": 2
+				},
+				"extratime": {
+					"home": null,
+					"away": null
+				},
+				"penalty": {
+					"home": null,
+					"away": null
+				}
+			}
+		},
+		{
+			"fixture": {
+				"id": 710919,
+				"referee": "M. Dean",
+				"timezone": "UTC",
+				"date": "2022-04-28T18:45:00+00:00",
+				"timestamp": 1651171500,
+				"periods": {
+					"first": 1651171500,
+					"second": 1651175100
+				},
+				"venue": {
+					"id": 556,
+					"name": "Old Trafford",
+					"city": "Manchester"
+				},
+				"status": {
+					"long": "Match Finished",
+					"short": "FT",
+					"elapsed": 90,
+					"extra": null
+				}
+			},
+			"league": {
+				"id": 39,
+				"name": "Premier League",
+				"country": "England",
+				"logo": "https://media.api-sports.io/football/leagues/39.png",
+				"flag": "https://media.api-sports.io/flags/gb-eng.svg",
+				"season": 2021,
+				"round": "Regular Season - 37",
+				"standings": true
+			},
+			"teams": {
+				"home": {
+					"id": 33,
+					"name": "Manchester United",
+					"logo": "https://media.api-sports.io/football/teams/33.png",
+					"winner": null
+				},
+				"away": {
+					"id": 49,
+					"name": "Chelsea",
+					"logo": "https://media.api-sports.io/football/teams/49.png",
+					"winner": null
+				}
+			},
+			"goals": {
+				"home": 1,
+				"away": 1
+			},
+			"score": {
+				"halftime": {
+					"home": 0,
+					"away": 0
+				},
+				"fulltime": {
+					"home": 1,
+					"away": 1
+				},
+				"extratime": {
+					"home": null,
+					"away": null
+				},
+				"penalty": {
+					"home": null,
+					"away": null
+				}
+			}
+		},
+		{
+			"fixture": {
+				"id": 710930,
+				"referee": "M. Dean",
+				"timezone": "UTC",
+				"date": "2022-05-22T15:00:00+00:00",
+				"timestamp": 1653231600,
+				"periods": {
+					"first": 1653231600,
+					"second": 1653235200
+				},
+				"venue": {
+					"id": 519,
+					"name": "Stamford Bridge",
+					"city": "London"
+				},
+				"status": {
+					"long": "Match Finished",
+					"short": "FT",
+					"elapsed": 90,
+					"extra": null
+				}
+			},
+			"league": {
+				"id": 39,
+				"name": "Premier League",
+				"country": "England",
+				"logo": "https://media.api-sports.io/football/leagues/39.png",
+				"flag": "https://media.api-sports.io/flags/gb-eng.svg",
+				"season": 2021,
+				"round": "Regular Season - 38",
+				"standings": true
+			},
+			"teams": {
+				"home": {
+					"id": 49,
+					"name": "Chelsea",
+					"logo": "https://media.api-sports.io/football/teams/49.png",
+					"winner": true
+				},
+				"away": {
+					"id": 38,
+					"name": "Watford",
+					"logo": "https://media.api-sports.io/football/teams/38.png",
+					"winner": false
+				}
+			},
+			"goals": {
+				"home": 2,
+				"away": 1
+			},
+			"score": {
+				"halftime": {
+					"home": 1,
+					"away": 0
+				},
+				"fulltime": {
+					"home": 2,
+					"away": 1
+				},
+				"extratime": {
+					"home": null,
+					"away": null
+				},
+				"penalty": {
+					"home": null,
+					"away": null
+				}
+			}
+		},
+		{
+			"fixture": {
+				"id": 736041,
+				"referee": "A. Marriner",
+				"timezone": "UTC",
+				"date": "2021-08-01T14:00:00+00:00",
+				"timestamp": 1627826400,
+				"periods": {
+					"first": 1627826400,
+					"second": 1627830000
+				},
+				"venue": {
+					"id": 494,
+					"name": "Emirates Stadium",
+					"city": "London"
+				},
+				"status": {
+					"long": "Match Finished",
+					"short": "FT",
+					"elapsed": 90,
+					"extra": null
+				}
+			},
+			"league": {
+				"id": 667,
+				"name": "Friendlies Clubs",
+				"country": "World",
+				"logo": "https://media.api-sports.io/football/leagues/667.png",
+				"flag": null,
+				"season": 2021,
+				"round": "Club Friendlies 1",
+				"standings": false
+			},
+			"teams": {
+				"home": {
+					"id": 42,
+					"name": "Arsenal",
+					"logo": "https://media.api-sports.io/football/teams/42.png",
+					"winner": false
+				},
+				"away": {
+					"id": 49,
+					"name": "Chelsea",
+					"logo": "https://media.api-sports.io/football/teams/49.png",
+					"winner": true
+				}
+			},
+			"goals": {
+				"home": 1,
+				"away": 2
+			},
+			"score": {
+				"halftime": {
+					"home": 0,
+					"away": 1
+				},
+				"fulltime": {
+					"home": 1,
+					"away": 2
+				},
+				"extratime": {
+					"home": null,
+					"away": null
+				},
+				"penalty": {
+					"home": null,
+					"away": null
+				}
+			}
+		},
+		{
+			"fixture": {
+				"id": 736042,
+				"referee": "K. Stroud",
+				"timezone": "UTC",
+				"date": "2021-08-04T18:45:00+00:00",
+				"timestamp": 1628102700,
+				"periods": {
+					"first": 1628102700,
+					"second": 1628106300
+				},
+				"venue": {
+					"id": 519,
+					"name": "Stamford Bridge",
+					"city": "London"
+				},
+				"status": {
+					"long": "Match Finished",
+					"short": "FT",
+					"elapsed": 90,
+					"extra": null
+				}
+			},
+			"league": {
+				"id": 667,
+				"name": "Friendlies Clubs",
+				"country": "World",
+				"logo": "https://media.api-sports.io/football/leagues/667.png",
+				"flag": null,
+				"season": 2021,
+				"round": "Club Friendlies 1",
+				"standings": false
+			},
+			"teams": {
+				"home": {
+					"id": 49,
+					"name": "Chelsea",
+					"logo": "https://media.api-sports.io/football/teams/49.png",
+					"winner": null
+				},
+				"away": {
+					"id": 47,
+					"name": "Tottenham",
+					"logo": "https://media.api-sports.io/football/teams/47.png",
+					"winner": null
+				}
+			},
+			"goals": {
+				"home": 2,
+				"away": 2
+			},
+			"score": {
+				"halftime": {
+					"home": 1,
+					"away": 0
+				},
+				"fulltime": {
+					"home": 2,
+					"away": 2
+				},
+				"extratime": {
+					"home": null,
+					"away": null
+				},
+				"penalty": {
+					"home": null,
+					"away": null
+				}
+			}
+		},
+		{
+			"fixture": {
+				"id": 739335,
+				"referee": null,
+				"timezone": "UTC",
+				"date": "2021-07-17T08:00:00+00:00",
+				"timestamp": 1626508800,
+				"periods": {
+					"first": 1626508800,
+					"second": 1626512400
+				},
+				"venue": {
+					"id": null,
+					"name": null,
+					"city": null
+				},
+				"status": {
+					"long": "Match Finished",
+					"short": "FT",
+					"elapsed": 90,
+					"extra": null
+				}
+			},
+			"league": {
+				"id": 667,
+				"name": "Friendlies Clubs",
+				"country": "World",
+				"logo": "https://media.api-sports.io/football/leagues/667.png",
+				"flag": null,
+				"season": 2021,
+				"round": "Club Friendlies 5",
+				"standings": false
+			},
+			"teams": {
+				"home": {
+					"id": 49,
+					"name": "Chelsea",
+					"logo": "https://media.api-sports.io/football/teams/49.png",
+					"winner": true
+				},
+				"away": {
+					"id": 1350,
+					"name": "Peterborough",
+					"logo": "https://media.api-sports.io/football/teams/1350.png",
+					"winner": false
+				}
+			},
+			"goals": {
+				"home": 6,
+				"away": 1
+			},
+			"score": {
+				"halftime": {
+					"home": 2,
+					"away": 1
+				},
+				"fulltime": {
+					"home": 6,
+					"away": 1
+				},
+				"extratime": {
+					"home": null,
+					"away": null
+				},
+				"penalty": {
+					"home": null,
+					"away": null
+				}
+			}
+		},
+		{
+			"fixture": {
+				"id": 740320,
+				"referee": null,
+				"timezone": "UTC",
+				"date": "2021-07-27T18:45:00+00:00",
+				"timestamp": 1627411500,
+				"periods": {
+					"first": null,
+					"second": null
+				},
+				"venue": {
+					"id": null,
+					"name": null,
+					"city": null
+				},
+				"status": {
+					"long": "Match Cancelled",
+					"short": "Canc",
+					"elapsed": null,
+					"extra": null
+				}
+			},
+			"league": {
+				"id": 667,
+				"name": "Friendlies Clubs",
+				"country": "World",
+				"logo": "https://media.api-sports.io/football/leagues/667.png",
+				"flag": null,
+				"season": 2021,
+				"round": "Club Friendlies 5",
+				"standings": false
+			},
+			"teams": {
+				"home": {
+					"id": 49,
+					"name": "Chelsea",
+					"logo": "https://media.api-sports.io/football/teams/49.png",
+					"winner": null
+				},
+				"away": {
+					"id": 35,
+					"name": "Bournemouth",
+					"logo": "https://media.api-sports.io/football/teams/35.png",
+					"winner": null
+				}
+			},
+			"goals": {
+				"home": null,
+				"away": null
+			},
+			"score": {
+				"halftime": {
+					"home": null,
+					"away": null
+				},
+				"fulltime": {
+					"home": null,
+					"away": null
+				},
+				"extratime": {
+					"home": null,
+					"away": null
+				},
+				"penalty": {
+					"home": null,
+					"away": null
+				}
+			}
+		},
+		{
+			"fixture": {
+				"id": 740414,
+				"referee": null,
+				"timezone": "UTC",
+				"date": "2021-07-22T17:30:00+00:00",
+				"timestamp": 1626975000,
+				"periods": {
+					"first": null,
+					"second": null
+				},
+				"venue": {
+					"id": null,
+					"name": null,
+					"city": null
+				},
+				"status": {
+					"long": "Match Cancelled",
+					"short": "CANC",
+					"elapsed": null,
+					"extra": null
+				}
+			},
+			"league": {
+				"id": 667,
+				"name": "Friendlies Clubs",
+				"country": "World",
+				"logo": "https://media.api-sports.io/football/leagues/667.png",
+				"flag": null,
+				"season": 2021,
+				"round": "Club Friendlies 5",
+				"standings": false
+			},
+			"teams": {
+				"home": {
+					"id": 49,
+					"name": "Chelsea",
+					"logo": "https://media.api-sports.io/football/teams/49.png",
+					"winner": null
+				},
+				"away": {
+					"id": 3850,
+					"name": "Drogheda United",
+					"logo": "https://media.api-sports.io/football/teams/3850.png",
+					"winner": null
+				}
+			},
+			"goals": {
+				"home": null,
+				"away": null
+			},
+			"score": {
+				"halftime": {
+					"home": null,
+					"away": null
+				},
+				"fulltime": {
+					"home": null,
+					"away": null
+				},
+				"extratime": {
+					"home": null,
+					"away": null
+				},
+				"penalty": {
+					"home": null,
+					"away": null
+				}
+			}
+		},
+		{
+			"fixture": {
+				"id": 747513,
+				"referee": null,
+				"timezone": "UTC",
+				"date": "2021-07-27T00:00:00+00:00",
+				"timestamp": 1627344000,
+				"periods": {
+					"first": 1627344000,
+					"second": 1627347600
+				},
+				"venue": {
+					"id": 504,
+					"name": "Vitality Stadium",
+					"city": "Bournemouth, Dorset"
+				},
+				"status": {
+					"long": "Match Finished",
+					"short": "FT",
+					"elapsed": 90,
+					"extra": null
+				}
+			},
+			"league": {
+				"id": 667,
+				"name": "Friendlies Clubs",
+				"country": "World",
+				"logo": "https://media.api-sports.io/football/leagues/667.png",
+				"flag": null,
+				"season": 2021,
+				"round": "Club Friendlies 1",
+				"standings": false
+			},
+			"teams": {
+				"home": {
+					"id": 35,
+					"name": "Bournemouth",
+					"logo": "https://media.api-sports.io/football/teams/35.png",
+					"winner": false
+				},
+				"away": {
+					"id": 49,
+					"name": "Chelsea",
+					"logo": "https://media.api-sports.io/football/teams/49.png",
+					"winner": true
+				}
+			},
+			"goals": {
+				"home": 1,
+				"away": 2
+			},
+			"score": {
+				"halftime": {
+					"home": 0,
+					"away": 0
+				},
+				"fulltime": {
+					"home": 1,
+					"away": 2
+				},
+				"extratime": {
+					"home": null,
+					"away": null
+				},
+				"penalty": {
+					"home": null,
+					"away": null
+				}
+			}
+		},
+		{
+			"fixture": {
+				"id": 778346,
+				"referee": null,
+				"timezone": "UTC",
+				"date": "2021-08-15T11:30:00+00:00",
+				"timestamp": 1629027000,
+				"periods": {
+					"first": 1629027000,
+					"second": 1629030600
+				},
+				"venue": {
+					"id": null,
+					"name": null,
+					"city": null
+				},
+				"status": {
+					"long": "Match Finished",
+					"short": "FT",
+					"elapsed": 90,
+					"extra": null
+				}
+			},
+			"league": {
+				"id": 667,
+				"name": "Friendlies Clubs",
+				"country": "World",
+				"logo": "https://media.api-sports.io/football/leagues/667.png",
+				"flag": null,
+				"season": 2021,
+				"round": "Club Friendlies 5",
+				"standings": false
+			},
+			"teams": {
+				"home": {
+					"id": 8665,
+					"name": "Weymouth",
+					"logo": "https://media.api-sports.io/football/teams/8665.png",
+					"winner": false
+				},
+				"away": {
+					"id": 49,
+					"name": "Chelsea",
+					"logo": "https://media.api-sports.io/football/teams/49.png",
+					"winner": true
+				}
+			},
+			"goals": {
+				"home": 0,
+				"away": 13
+			},
+			"score": {
+				"halftime": {
+					"home": 0,
+					"away": 8
+				},
+				"fulltime": {
+					"home": 0,
+					"away": 13
+				},
+				"extratime": {
+					"home": null,
+					"away": null
+				},
+				"penalty": {
+					"home": null,
+					"away": null
+				}
+			}
+		},
+		{
+			"fixture": {
+				"id": 787054,
+				"referee": "G. Scott",
+				"timezone": "UTC",
+				"date": "2021-09-22T18:45:00+00:00",
+				"timestamp": 1632336300,
+				"periods": {
+					"first": 1632336300,
+					"second": 1632339900
+				},
+				"venue": {
+					"id": 519,
+					"name": "Stamford Bridge",
+					"city": "London"
+				},
+				"status": {
+					"long": "Match Finished",
+					"short": "PEN",
+					"elapsed": 120,
+					"extra": null
+				}
+			},
+			"league": {
+				"id": 48,
+				"name": "League Cup",
+				"country": "England",
+				"logo": "https://media.api-sports.io/football/leagues/48.png",
+				"flag": "https://media.api-sports.io/flags/gb-eng.svg",
+				"season": 2021,
+				"round": "3rd Round",
+				"standings": false
+			},
+			"teams": {
+				"home": {
+					"id": 49,
+					"name": "Chelsea",
+					"logo": "https://media.api-sports.io/football/teams/49.png",
+					"winner": true
+				},
+				"away": {
+					"id": 66,
+					"name": "Aston Villa",
+					"logo": "https://media.api-sports.io/football/teams/66.png",
+					"winner": false
+				}
+			},
+			"goals": {
+				"home": 1,
+				"away": 1
+			},
+			"score": {
+				"halftime": {
+					"home": 0,
+					"away": 0
+				},
+				"fulltime": {
+					"home": 1,
+					"away": 1
+				},
+				"extratime": {
+					"home": 0,
+					"away": 0
+				},
+				"penalty": {
+					"home": 4,
+					"away": 3
+				}
+			}
+		},
+		{
+			"fixture": {
+				"id": 787566,
+				"referee": "B. Frankowski",
+				"timezone": "UTC",
+				"date": "2021-09-14T19:00:00+00:00",
+				"timestamp": 1631646000,
+				"periods": {
+					"first": 1631646000,
+					"second": 1631649600
+				},
+				"venue": {
+					"id": 519,
+					"name": "Stamford Bridge",
+					"city": "London"
+				},
+				"status": {
+					"long": "Match Finished",
+					"short": "FT",
+					"elapsed": 90,
+					"extra": null
+				}
+			},
+			"league": {
+				"id": 2,
+				"name": "UEFA Champions League",
+				"country": "World",
+				"logo": "https://media.api-sports.io/football/leagues/2.png",
+				"flag": null,
+				"season": 2021,
+				"round": "Group Stage - 1",
+				"standings": true
+			},
+			"teams": {
+				"home": {
+					"id": 49,
+					"name": "Chelsea",
+					"logo": "https://media.api-sports.io/football/teams/49.png",
+					"winner": true
+				},
+				"away": {
+					"id": 596,
+					"name": "Zenit Saint Petersburg",
+					"logo": "https://media.api-sports.io/football/teams/596.png",
+					"winner": false
+				}
+			},
+			"goals": {
+				"home": 1,
+				"away": 0
+			},
+			"score": {
+				"halftime": {
+					"home": 0,
+					"away": 0
+				},
+				"fulltime": {
+					"home": 1,
+					"away": 0
+				},
+				"extratime": {
+					"home": null,
+					"away": null
+				},
+				"penalty": {
+					"home": null,
+					"away": null
+				}
+			}
+		},
+		{
+			"fixture": {
+				"id": 787591,
+				"referee": "Jesús Gil",
+				"timezone": "UTC",
+				"date": "2021-09-29T19:00:00+00:00",
+				"timestamp": 1632942000,
+				"periods": {
+					"first": 1632942000,
+					"second": 1632945600
+				},
+				"venue": {
+					"id": 909,
+					"name": "Allianz Stadium",
+					"city": "Torino"
+				},
+				"status": {
+					"long": "Match Finished",
+					"short": "FT",
+					"elapsed": 90,
+					"extra": null
+				}
+			},
+			"league": {
+				"id": 2,
+				"name": "UEFA Champions League",
+				"country": "World",
+				"logo": "https://media.api-sports.io/football/leagues/2.png",
+				"flag": null,
+				"season": 2021,
+				"round": "Group Stage - 2",
+				"standings": true
+			},
+			"teams": {
+				"home": {
+					"id": 496,
+					"name": "Juventus",
+					"logo": "https://media.api-sports.io/football/teams/496.png",
+					"winner": true
+				},
+				"away": {
+					"id": 49,
+					"name": "Chelsea",
+					"logo": "https://media.api-sports.io/football/teams/49.png",
+					"winner": false
+				}
+			},
+			"goals": {
+				"home": 1,
+				"away": 0
+			},
+			"score": {
+				"halftime": {
+					"home": 0,
+					"away": 0
+				},
+				"fulltime": {
+					"home": 1,
+					"away": 0
+				},
+				"extratime": {
+					"home": null,
+					"away": null
+				},
+				"penalty": {
+					"home": null,
+					"away": null
+				}
+			}
+		},
+		{
+			"fixture": {
+				"id": 787606,
+				"referee": "F. Letexier",
+				"timezone": "UTC",
+				"date": "2021-10-20T19:00:00+00:00",
+				"timestamp": 1634756400,
+				"periods": {
+					"first": 1634756400,
+					"second": 1634760000
+				},
+				"venue": {
+					"id": 519,
+					"name": "Stamford Bridge",
+					"city": "London"
+				},
+				"status": {
+					"long": "Match Finished",
+					"short": "FT",
+					"elapsed": 90,
+					"extra": null
+				}
+			},
+			"league": {
+				"id": 2,
+				"name": "UEFA Champions League",
+				"country": "World",
+				"logo": "https://media.api-sports.io/football/leagues/2.png",
+				"flag": null,
+				"season": 2021,
+				"round": "Group Stage - 3",
+				"standings": true
+			},
+			"teams": {
+				"home": {
+					"id": 49,
+					"name": "Chelsea",
+					"logo": "https://media.api-sports.io/football/teams/49.png",
+					"winner": true
+				},
+				"away": {
+					"id": 375,
+					"name": "Malmo FF",
+					"logo": "https://media.api-sports.io/football/teams/375.png",
+					"winner": false
+				}
+			},
+			"goals": {
+				"home": 4,
+				"away": 0
+			},
+			"score": {
+				"halftime": {
+					"home": 2,
+					"away": 0
+				},
+				"fulltime": {
+					"home": 4,
+					"away": 0
+				},
+				"extratime": {
+					"home": null,
+					"away": null
+				},
+				"penalty": {
+					"home": null,
+					"away": null
+				}
+			}
+		},
+		{
+			"fixture": {
+				"id": 787609,
+				"referee": "F. Brych",
+				"timezone": "UTC",
+				"date": "2021-11-02T17:45:00+00:00",
+				"timestamp": 1635875100,
+				"periods": {
+					"first": 1635875100,
+					"second": 1635878700
+				},
+				"venue": {
+					"id": 1518,
+					"name": "Eleda Stadion",
+					"city": "Malmö"
+				},
+				"status": {
+					"long": "Match Finished",
+					"short": "FT",
+					"elapsed": 90,
+					"extra": null
+				}
+			},
+			"league": {
+				"id": 2,
+				"name": "UEFA Champions League",
+				"country": "World",
+				"logo": "https://media.api-sports.io/football/leagues/2.png",
+				"flag": null,
+				"season": 2021,
+				"round": "Group Stage - 4",
+				"standings": true
+			},
+			"teams": {
+				"home": {
+					"id": 375,
+					"name": "Malmo FF",
+					"logo": "https://media.api-sports.io/football/teams/375.png",
+					"winner": false
+				},
+				"away": {
+					"id": 49,
+					"name": "Chelsea",
+					"logo": "https://media.api-sports.io/football/teams/49.png",
+					"winner": true
+				}
+			},
+			"goals": {
+				"home": 0,
+				"away": 1
+			},
+			"score": {
+				"halftime": {
+					"home": 0,
+					"away": 0
+				},
+				"fulltime": {
+					"home": 0,
+					"away": 1
+				},
+				"extratime": {
+					"home": null,
+					"away": null
+				},
+				"penalty": {
+					"home": null,
+					"away": null
+				}
+			}
+		},
+		{
+			"fixture": {
+				"id": 787630,
+				"referee": "S. Jovanović",
+				"timezone": "UTC",
+				"date": "2021-11-23T20:00:00+00:00",
+				"timestamp": 1637697600,
+				"periods": {
+					"first": 1637697600,
+					"second": 1637701200
+				},
+				"venue": {
+					"id": 519,
+					"name": "Stamford Bridge",
+					"city": "London"
+				},
+				"status": {
+					"long": "Match Finished",
+					"short": "FT",
+					"elapsed": 90,
+					"extra": null
+				}
+			},
+			"league": {
+				"id": 2,
+				"name": "UEFA Champions League",
+				"country": "World",
+				"logo": "https://media.api-sports.io/football/leagues/2.png",
+				"flag": null,
+				"season": 2021,
+				"round": "Group Stage - 5",
+				"standings": true
+			},
+			"teams": {
+				"home": {
+					"id": 49,
+					"name": "Chelsea",
+					"logo": "https://media.api-sports.io/football/teams/49.png",
+					"winner": true
+				},
+				"away": {
+					"id": 496,
+					"name": "Juventus",
+					"logo": "https://media.api-sports.io/football/teams/496.png",
+					"winner": false
+				}
+			},
+			"goals": {
+				"home": 4,
+				"away": 0
+			},
+			"score": {
+				"halftime": {
+					"home": 1,
+					"away": 0
+				},
+				"fulltime": {
+					"home": 4,
+					"away": 0
+				},
+				"extratime": {
+					"home": null,
+					"away": null
+				},
+				"penalty": {
+					"home": null,
+					"away": null
+				}
+			}
+		},
+		{
+			"fixture": {
+				"id": 787649,
+				"referee": "S. Gözübüyük",
+				"timezone": "UTC",
+				"date": "2021-12-08T17:45:00+00:00",
+				"timestamp": 1638985500,
+				"periods": {
+					"first": 1638985500,
+					"second": 1638989100
+				},
+				"venue": {
+					"id": null,
+					"name": "Saint-Petersburg Stadium",
+					"city": "St. Petersburg"
+				},
+				"status": {
+					"long": "Match Finished",
+					"short": "FT",
+					"elapsed": 90,
+					"extra": null
+				}
+			},
+			"league": {
+				"id": 2,
+				"name": "UEFA Champions League",
+				"country": "World",
+				"logo": "https://media.api-sports.io/football/leagues/2.png",
+				"flag": null,
+				"season": 2021,
+				"round": "Group Stage - 6",
+				"standings": true
+			},
+			"teams": {
+				"home": {
+					"id": 596,
+					"name": "Zenit Saint Petersburg",
+					"logo": "https://media.api-sports.io/football/teams/596.png",
+					"winner": null
+				},
+				"away": {
+					"id": 49,
+					"name": "Chelsea",
+					"logo": "https://media.api-sports.io/football/teams/49.png",
+					"winner": null
+				}
+			},
+			"goals": {
+				"home": 3,
+				"away": 3
+			},
+			"score": {
+				"halftime": {
+					"home": 2,
+					"away": 1
+				},
+				"fulltime": {
+					"home": 3,
+					"away": 3
+				},
+				"extratime": {
+					"home": null,
+					"away": null
+				},
+				"penalty": {
+					"home": null,
+					"away": null
+				}
+			}
+		},
+		{
+			"fixture": {
+				"id": 800352,
+				"referee": "K. Friend",
+				"timezone": "UTC",
+				"date": "2021-10-26T18:45:00+00:00",
+				"timestamp": 1635273900,
+				"periods": {
+					"first": 1635273900,
+					"second": 1635277500
+				},
+				"venue": {
+					"id": 519,
+					"name": "Stamford Bridge",
+					"city": "London"
+				},
+				"status": {
+					"long": "Match Finished",
+					"short": "PEN",
+					"elapsed": 120,
+					"extra": null
+				}
+			},
+			"league": {
+				"id": 48,
+				"name": "League Cup",
+				"country": "England",
+				"logo": "https://media.api-sports.io/football/leagues/48.png",
+				"flag": "https://media.api-sports.io/flags/gb-eng.svg",
+				"season": 2021,
+				"round": "Round of 16",
+				"standings": false
+			},
+			"teams": {
+				"home": {
+					"id": 49,
+					"name": "Chelsea",
+					"logo": "https://media.api-sports.io/football/teams/49.png",
+					"winner": true
+				},
+				"away": {
+					"id": 41,
+					"name": "Southampton",
+					"logo": "https://media.api-sports.io/football/teams/41.png",
+					"winner": false
+				}
+			},
+			"goals": {
+				"home": 1,
+				"away": 1
+			},
+			"score": {
+				"halftime": {
+					"home": 1,
+					"away": 0
+				},
+				"fulltime": {
+					"home": 1,
+					"away": 1
+				},
+				"extratime": {
+					"home": 0,
+					"away": 0
+				},
+				"penalty": {
+					"home": 4,
+					"away": 3
+				}
+			}
+		},
+		{
+			"fixture": {
+				"id": 810062,
+				"referee": "A. Marriner",
+				"timezone": "UTC",
+				"date": "2021-12-22T19:45:00+00:00",
+				"timestamp": 1640202300,
+				"periods": {
+					"first": 1640202300,
+					"second": 1640205900
+				},
+				"venue": {
+					"id": 10503,
+					"name": "Brentford Community Stadium",
+					"city": "Brentford, Middlesex"
+				},
+				"status": {
+					"long": "Match Finished",
+					"short": "FT",
+					"elapsed": 90,
+					"extra": null
+				}
+			},
+			"league": {
+				"id": 48,
+				"name": "League Cup",
+				"country": "England",
+				"logo": "https://media.api-sports.io/football/leagues/48.png",
+				"flag": "https://media.api-sports.io/flags/gb-eng.svg",
+				"season": 2021,
+				"round": "Quarter-finals",
+				"standings": false
+			},
+			"teams": {
+				"home": {
+					"id": 55,
+					"name": "Brentford",
+					"logo": "https://media.api-sports.io/football/teams/55.png",
+					"winner": false
+				},
+				"away": {
+					"id": 49,
+					"name": "Chelsea",
+					"logo": "https://media.api-sports.io/football/teams/49.png",
+					"winner": true
+				}
+			},
+			"goals": {
+				"home": 0,
+				"away": 2
+			},
+			"score": {
+				"halftime": {
+					"home": 0,
+					"away": 0
+				},
+				"fulltime": {
+					"home": 0,
+					"away": 2
+				},
+				"extratime": {
+					"home": null,
+					"away": null
+				},
+				"penalty": {
+					"home": null,
+					"away": null
+				}
+			}
+		},
+		{
+			"fixture": {
+				"id": 815143,
+				"referee": "J. Gillett",
+				"timezone": "UTC",
+				"date": "2022-01-08T17:30:00+00:00",
+				"timestamp": 1641663000,
+				"periods": {
+					"first": 1641663000,
+					"second": 1641666600
+				},
+				"venue": {
+					"id": 519,
+					"name": "Stamford Bridge",
+					"city": "London"
+				},
+				"status": {
+					"long": "Match Finished",
+					"short": "FT",
+					"elapsed": 90,
+					"extra": null
+				}
+			},
+			"league": {
+				"id": 45,
+				"name": "FA Cup",
+				"country": "England",
+				"logo": "https://media.api-sports.io/football/leagues/45.png",
+				"flag": "https://media.api-sports.io/flags/gb-eng.svg",
+				"season": 2021,
+				"round": "3rd Round",
+				"standings": false
+			},
+			"teams": {
+				"home": {
+					"id": 49,
+					"name": "Chelsea",
+					"logo": "https://media.api-sports.io/football/teams/49.png",
+					"winner": true
+				},
+				"away": {
+					"id": 1345,
+					"name": "Chesterfield",
+					"logo": "https://media.api-sports.io/football/teams/1345.png",
+					"winner": false
+				}
+			},
+			"goals": {
+				"home": 5,
+				"away": 1
+			},
+			"score": {
+				"halftime": {
+					"home": 4,
+					"away": 0
+				},
+				"fulltime": {
+					"home": 5,
+					"away": 1
+				},
+				"extratime": {
+					"home": null,
+					"away": null
+				},
+				"penalty": {
+					"home": null,
+					"away": null
+				}
+			}
+		},
+		{
+			"fixture": {
+				"id": 816248,
+				"referee": "Jesús Gil",
+				"timezone": "UTC",
+				"date": "2022-02-22T20:00:00+00:00",
+				"timestamp": 1645560000,
+				"periods": {
+					"first": 1645560000,
+					"second": 1645563600
+				},
+				"venue": {
+					"id": 519,
+					"name": "Stamford Bridge",
+					"city": "London"
+				},
+				"status": {
+					"long": "Match Finished",
+					"short": "FT",
+					"elapsed": 90,
+					"extra": null
+				}
+			},
+			"league": {
+				"id": 2,
+				"name": "UEFA Champions League",
+				"country": "World",
+				"logo": "https://media.api-sports.io/football/leagues/2.png",
+				"flag": null,
+				"season": 2021,
+				"round": "Round of 16",
+				"standings": true
+			},
+			"teams": {
+				"home": {
+					"id": 49,
+					"name": "Chelsea",
+					"logo": "https://media.api-sports.io/football/teams/49.png",
+					"winner": true
+				},
+				"away": {
+					"id": 79,
+					"name": "Lille",
+					"logo": "https://media.api-sports.io/football/teams/79.png",
+					"winner": false
+				}
+			},
+			"goals": {
+				"home": 2,
+				"away": 0
+			},
+			"score": {
+				"halftime": {
+					"home": 1,
+					"away": 0
+				},
+				"fulltime": {
+					"home": 2,
+					"away": 0
+				},
+				"extratime": {
+					"home": null,
+					"away": null
+				},
+				"penalty": {
+					"home": null,
+					"away": null
+				}
+			}
+		},
+		{
+			"fixture": {
+				"id": 816249,
+				"referee": "D. Massa",
+				"timezone": "UTC",
+				"date": "2022-03-16T20:00:00+00:00",
+				"timestamp": 1647460800,
+				"periods": {
+					"first": 1647460800,
+					"second": 1647464400
+				},
+				"venue": {
+					"id": 655,
+					"name": "Stade Pierre-Mauroy",
+					"city": "Villeneuve d'Ascq"
+				},
+				"status": {
+					"long": "Match Finished",
+					"short": "FT",
+					"elapsed": 90,
+					"extra": null
+				}
+			},
+			"league": {
+				"id": 2,
+				"name": "UEFA Champions League",
+				"country": "World",
+				"logo": "https://media.api-sports.io/football/leagues/2.png",
+				"flag": null,
+				"season": 2021,
+				"round": "Round of 16",
+				"standings": true
+			},
+			"teams": {
+				"home": {
+					"id": 79,
+					"name": "Lille",
+					"logo": "https://media.api-sports.io/football/teams/79.png",
+					"winner": false
+				},
+				"away": {
+					"id": 49,
+					"name": "Chelsea",
+					"logo": "https://media.api-sports.io/football/teams/49.png",
+					"winner": true
+				}
+			},
+			"goals": {
+				"home": 1,
+				"away": 2
+			},
+			"score": {
+				"halftime": {
+					"home": 1,
+					"away": 1
+				},
+				"fulltime": {
+					"home": 1,
+					"away": 2
+				},
+				"extratime": {
+					"home": null,
+					"away": null
+				},
+				"penalty": {
+					"home": null,
+					"away": null
+				}
+			}
+		},
+		{
+			"fixture": {
+				"id": 820052,
+				"referee": "C. Pawson",
+				"timezone": "UTC",
+				"date": "2022-01-05T19:45:00+00:00",
+				"timestamp": 1641411900,
+				"periods": {
+					"first": 1641411900,
+					"second": 1641415500
+				},
+				"venue": {
+					"id": 519,
+					"name": "Stamford Bridge",
+					"city": "London"
+				},
+				"status": {
+					"long": "Match Finished",
+					"short": "FT",
+					"elapsed": 90,
+					"extra": null
+				}
+			},
+			"league": {
+				"id": 48,
+				"name": "League Cup",
+				"country": "England",
+				"logo": "https://media.api-sports.io/football/leagues/48.png",
+				"flag": "https://media.api-sports.io/flags/gb-eng.svg",
+				"season": 2021,
+				"round": "Semi-finals",
+				"standings": false
+			},
+			"teams": {
+				"home": {
+					"id": 49,
+					"name": "Chelsea",
+					"logo": "https://media.api-sports.io/football/teams/49.png",
+					"winner": true
+				},
+				"away": {
+					"id": 47,
+					"name": "Tottenham",
+					"logo": "https://media.api-sports.io/football/teams/47.png",
+					"winner": false
+				}
+			},
+			"goals": {
+				"home": 2,
+				"away": 0
+			},
+			"score": {
+				"halftime": {
+					"home": 2,
+					"away": 0
+				},
+				"fulltime": {
+					"home": 2,
+					"away": 0
+				},
+				"extratime": {
+					"home": null,
+					"away": null
+				},
+				"penalty": {
+					"home": null,
+					"away": null
+				}
+			}
+		},
+		{
+			"fixture": {
+				"id": 820053,
+				"referee": "A. Marriner",
+				"timezone": "UTC",
+				"date": "2022-01-12T19:45:00+00:00",
+				"timestamp": 1642016700,
+				"periods": {
+					"first": 1642016700,
+					"second": 1642020300
+				},
+				"venue": {
+					"id": 593,
+					"name": "Tottenham Hotspur Stadium",
+					"city": "London"
+				},
+				"status": {
+					"long": "Match Finished",
+					"short": "FT",
+					"elapsed": 90,
+					"extra": null
+				}
+			},
+			"league": {
+				"id": 48,
+				"name": "League Cup",
+				"country": "England",
+				"logo": "https://media.api-sports.io/football/leagues/48.png",
+				"flag": "https://media.api-sports.io/flags/gb-eng.svg",
+				"season": 2021,
+				"round": "Semi-finals",
+				"standings": false
+			},
+			"teams": {
+				"home": {
+					"id": 47,
+					"name": "Tottenham",
+					"logo": "https://media.api-sports.io/football/teams/47.png",
+					"winner": false
+				},
+				"away": {
+					"id": 49,
+					"name": "Chelsea",
+					"logo": "https://media.api-sports.io/football/teams/49.png",
+					"winner": true
+				}
+			},
+			"goals": {
+				"home": 0,
+				"away": 1
+			},
+			"score": {
+				"halftime": {
+					"home": 0,
+					"away": 1
+				},
+				"fulltime": {
+					"home": 0,
+					"away": 1
+				},
+				"extratime": {
+					"home": null,
+					"away": null
+				},
+				"penalty": {
+					"home": null,
+					"away": null
+				}
+			}
+		},
+		{
+			"fixture": {
+				"id": 824593,
+				"referee": "S. Hooper",
+				"timezone": "UTC",
+				"date": "2022-02-05T12:30:00+00:00",
+				"timestamp": 1644064200,
+				"periods": {
+					"first": 1644064200,
+					"second": 1644067800
+				},
+				"venue": {
+					"id": 519,
+					"name": "Stamford Bridge",
+					"city": "London"
+				},
+				"status": {
+					"long": "Match Finished",
+					"short": "AET",
+					"elapsed": 120,
+					"extra": null
+				}
+			},
+			"league": {
+				"id": 45,
+				"name": "FA Cup",
+				"country": "England",
+				"logo": "https://media.api-sports.io/football/leagues/45.png",
+				"flag": "https://media.api-sports.io/flags/gb-eng.svg",
+				"season": 2021,
+				"round": "4th Round",
+				"standings": false
+			},
+			"teams": {
+				"home": {
+					"id": 49,
+					"name": "Chelsea",
+					"logo": "https://media.api-sports.io/football/teams/49.png",
+					"winner": true
+				},
+				"away": {
+					"id": 1357,
+					"name": "Plymouth",
+					"logo": "https://media.api-sports.io/football/teams/1357.png",
+					"winner": false
+				}
+			},
+			"goals": {
+				"home": 2,
+				"away": 1
+			},
+			"score": {
+				"halftime": {
+					"home": 1,
+					"away": 1
+				},
+				"fulltime": {
+					"home": 1,
+					"away": 1
+				},
+				"extratime": {
+					"home": 1,
+					"away": 0
+				},
+				"penalty": {
+					"home": null,
+					"away": null
+				}
+			}
+		},
+		{
+			"fixture": {
+				"id": 827495,
+				"referee": "S. Attwell",
+				"timezone": "UTC",
+				"date": "2022-02-27T16:30:00+00:00",
+				"timestamp": 1645979400,
+				"periods": {
+					"first": 1645979400,
+					"second": 1645983000
+				},
+				"venue": {
+					"id": 489,
+					"name": "Wembley Stadium",
+					"city": "London"
+				},
+				"status": {
+					"long": "Match Finished",
+					"short": "PEN",
+					"elapsed": 120,
+					"extra": null
+				}
+			},
+			"league": {
+				"id": 48,
+				"name": "League Cup",
+				"country": "England",
+				"logo": "https://media.api-sports.io/football/leagues/48.png",
+				"flag": "https://media.api-sports.io/flags/gb-eng.svg",
+				"season": 2021,
+				"round": "Final",
+				"standings": false
+			},
+			"teams": {
+				"home": {
+					"id": 49,
+					"name": "Chelsea",
+					"logo": "https://media.api-sports.io/football/teams/49.png",
+					"winner": false
+				},
+				"away": {
+					"id": 40,
+					"name": "Liverpool",
+					"logo": "https://media.api-sports.io/football/teams/40.png",
+					"winner": true
+				}
+			},
+			"goals": {
+				"home": 0,
+				"away": 0
+			},
+			"score": {
+				"halftime": {
+					"home": 0,
+					"away": 0
+				},
+				"fulltime": {
+					"home": 0,
+					"away": 0
+				},
+				"extratime": {
+					"home": 0,
+					"away": 0
+				},
+				"penalty": {
+					"home": 10,
+					"away": 11
+				}
+			}
+		},
+		{
+			"fixture": {
+				"id": 839024,
+				"referee": "C. Ramos",
+				"timezone": "UTC",
+				"date": "2022-02-09T16:30:00+00:00",
+				"timestamp": 1644424200,
+				"periods": {
+					"first": 1644424200,
+					"second": 1644427800
+				},
+				"venue": {
+					"id": null,
+					"name": "Mohammed Bin Zayed Stadium",
+					"city": "Abu Dhabi"
+				},
+				"status": {
+					"long": "Match Finished",
+					"short": "FT",
+					"elapsed": 90,
+					"extra": null
+				}
+			},
+			"league": {
+				"id": 15,
+				"name": "FIFA Club World Cup",
+				"country": "World",
+				"logo": "https://media.api-sports.io/football/leagues/15.png",
+				"flag": null,
+				"season": 2021,
+				"round": "Semi-finals",
+				"standings": false
+			},
+			"teams": {
+				"home": {
+					"id": 2932,
+					"name": "Al-Hilal Saudi FC",
+					"logo": "https://media.api-sports.io/football/teams/2932.png",
+					"winner": false
+				},
+				"away": {
+					"id": 49,
+					"name": "Chelsea",
+					"logo": "https://media.api-sports.io/football/teams/49.png",
+					"winner": true
+				}
+			},
+			"goals": {
+				"home": 0,
+				"away": 1
+			},
+			"score": {
+				"halftime": {
+					"home": 0,
+					"away": 1
+				},
+				"fulltime": {
+					"home": 0,
+					"away": 1
+				},
+				"extratime": {
+					"home": null,
+					"away": null
+				},
+				"penalty": {
+					"home": null,
+					"away": null
+				}
+			}
+		},
+		{
+			"fixture": {
+				"id": 839033,
+				"referee": "P. Bankes",
+				"timezone": "UTC",
+				"date": "2022-03-02T19:15:00+00:00",
+				"timestamp": 1646248500,
+				"periods": {
+					"first": 1646248500,
+					"second": 1646252100
+				},
+				"venue": {
+					"id": 551,
+					"name": "Kenilworth Road",
+					"city": "Luton, Bedfordshire"
+				},
+				"status": {
+					"long": "Match Finished",
+					"short": "FT",
+					"elapsed": 90,
+					"extra": null
+				}
+			},
+			"league": {
+				"id": 45,
+				"name": "FA Cup",
+				"country": "England",
+				"logo": "https://media.api-sports.io/football/leagues/45.png",
+				"flag": "https://media.api-sports.io/flags/gb-eng.svg",
+				"season": 2021,
+				"round": "5th Round",
+				"standings": false
+			},
+			"teams": {
+				"home": {
+					"id": 1359,
+					"name": "Luton",
+					"logo": "https://media.api-sports.io/football/teams/1359.png",
+					"winner": false
+				},
+				"away": {
+					"id": 49,
+					"name": "Chelsea",
+					"logo": "https://media.api-sports.io/football/teams/49.png",
+					"winner": true
+				}
+			},
+			"goals": {
+				"home": 2,
+				"away": 3
+			},
+			"score": {
+				"halftime": {
+					"home": 2,
+					"away": 1
+				},
+				"fulltime": {
+					"home": 2,
+					"away": 3
+				},
+				"extratime": {
+					"home": null,
+					"away": null
+				},
+				"penalty": {
+					"home": null,
+					"away": null
+				}
+			}
+		},
+		{
+			"fixture": {
+				"id": 839854,
+				"referee": "C. Beath",
+				"timezone": "UTC",
+				"date": "2022-02-12T16:30:00+00:00",
+				"timestamp": 1644683400,
+				"periods": {
+					"first": 1644683400,
+					"second": 1644687000
+				},
+				"venue": {
+					"id": null,
+					"name": "Mohammed Bin Zayed Stadium",
+					"city": "Abu Dhabi"
+				},
+				"status": {
+					"long": "Match Finished",
+					"short": "AET",
+					"elapsed": 120,
+					"extra": null
+				}
+			},
+			"league": {
+				"id": 15,
+				"name": "FIFA Club World Cup",
+				"country": "World",
+				"logo": "https://media.api-sports.io/football/leagues/15.png",
+				"flag": null,
+				"season": 2021,
+				"round": "Final",
+				"standings": false
+			},
+			"teams": {
+				"home": {
+					"id": 49,
+					"name": "Chelsea",
+					"logo": "https://media.api-sports.io/football/teams/49.png",
+					"winner": true
+				},
+				"away": {
+					"id": 121,
+					"name": "Palmeiras",
+					"logo": "https://media.api-sports.io/football/teams/121.png",
+					"winner": false
+				}
+			},
+			"goals": {
+				"home": 2,
+				"away": 1
+			},
+			"score": {
+				"halftime": {
+					"home": 0,
+					"away": 0
+				},
+				"fulltime": {
+					"home": 1,
+					"away": 1
+				},
+				"extratime": {
+					"home": 1,
+					"away": 0
+				},
+				"penalty": {
+					"home": null,
+					"away": null
+				}
+			}
+		},
+		{
+			"fixture": {
+				"id": 846625,
+				"referee": "P. Tierney",
+				"timezone": "UTC",
+				"date": "2022-03-19T17:15:00+00:00",
+				"timestamp": 1647710100,
+				"periods": {
+					"first": 1647710100,
+					"second": 1647713700
+				},
+				"venue": {
+					"id": 558,
+					"name": "Riverside Stadium",
+					"city": "Middlesbrough"
+				},
+				"status": {
+					"long": "Match Finished",
+					"short": "FT",
+					"elapsed": 90,
+					"extra": null
+				}
+			},
+			"league": {
+				"id": 45,
+				"name": "FA Cup",
+				"country": "England",
+				"logo": "https://media.api-sports.io/football/leagues/45.png",
+				"flag": "https://media.api-sports.io/flags/gb-eng.svg",
+				"season": 2021,
+				"round": "Quarter-finals",
+				"standings": false
+			},
+			"teams": {
+				"home": {
+					"id": 70,
+					"name": "Middlesbrough",
+					"logo": "https://media.api-sports.io/football/teams/70.png",
+					"winner": false
+				},
+				"away": {
+					"id": 49,
+					"name": "Chelsea",
+					"logo": "https://media.api-sports.io/football/teams/49.png",
+					"winner": true
+				}
+			},
+			"goals": {
+				"home": 0,
+				"away": 2
+			},
+			"score": {
+				"halftime": {
+					"home": 0,
+					"away": 2
+				},
+				"fulltime": {
+					"home": 0,
+					"away": 2
+				},
+				"extratime": {
+					"home": null,
+					"away": null
+				},
+				"penalty": {
+					"home": null,
+					"away": null
+				}
+			}
+		},
+		{
+			"fixture": {
+				"id": 851368,
+				"referee": "C. Turpin",
+				"timezone": "UTC",
+				"date": "2022-04-06T19:00:00+00:00",
+				"timestamp": 1649271600,
+				"periods": {
+					"first": 1649271600,
+					"second": 1649275200
+				},
+				"venue": {
+					"id": 519,
+					"name": "Stamford Bridge",
+					"city": "London"
+				},
+				"status": {
+					"long": "Match Finished",
+					"short": "FT",
+					"elapsed": 90,
+					"extra": null
+				}
+			},
+			"league": {
+				"id": 2,
+				"name": "UEFA Champions League",
+				"country": "World",
+				"logo": "https://media.api-sports.io/football/leagues/2.png",
+				"flag": null,
+				"season": 2021,
+				"round": "Quarter-finals",
+				"standings": true
+			},
+			"teams": {
+				"home": {
+					"id": 49,
+					"name": "Chelsea",
+					"logo": "https://media.api-sports.io/football/teams/49.png",
+					"winner": false
+				},
+				"away": {
+					"id": 541,
+					"name": "Real Madrid",
+					"logo": "https://media.api-sports.io/football/teams/541.png",
+					"winner": true
+				}
+			},
+			"goals": {
+				"home": 1,
+				"away": 3
+			},
+			"score": {
+				"halftime": {
+					"home": 1,
+					"away": 2
+				},
+				"fulltime": {
+					"home": 1,
+					"away": 3
+				},
+				"extratime": {
+					"home": null,
+					"away": null
+				},
+				"penalty": {
+					"home": null,
+					"away": null
+				}
+			}
+		},
+		{
+			"fixture": {
+				"id": 851369,
+				"referee": "S. Marciniak",
+				"timezone": "UTC",
+				"date": "2022-04-12T19:00:00+00:00",
+				"timestamp": 1649790000,
+				"periods": {
+					"first": 1649790000,
+					"second": 1649793600
+				},
+				"venue": {
+					"id": 1456,
+					"name": "Estadio Santiago Bernabéu",
+					"city": "Madrid"
+				},
+				"status": {
+					"long": "Match Finished",
+					"short": "AET",
+					"elapsed": 120,
+					"extra": null
+				}
+			},
+			"league": {
+				"id": 2,
+				"name": "UEFA Champions League",
+				"country": "World",
+				"logo": "https://media.api-sports.io/football/leagues/2.png",
+				"flag": null,
+				"season": 2021,
+				"round": "Quarter-finals",
+				"standings": true
+			},
+			"teams": {
+				"home": {
+					"id": 541,
+					"name": "Real Madrid",
+					"logo": "https://media.api-sports.io/football/teams/541.png",
+					"winner": false
+				},
+				"away": {
+					"id": 49,
+					"name": "Chelsea",
+					"logo": "https://media.api-sports.io/football/teams/49.png",
+					"winner": true
+				}
+			},
+			"goals": {
+				"home": 2,
+				"away": 3
+			},
+			"score": {
+				"halftime": {
+					"home": 0,
+					"away": 1
+				},
+				"fulltime": {
+					"home": 1,
+					"away": 3
+				},
+				"extratime": {
+					"home": 1,
+					"away": 0
+				},
+				"penalty": {
+					"home": null,
+					"away": null
+				}
+			}
+		},
+		{
+			"fixture": {
+				"id": 851978,
+				"referee": "A. Taylor",
+				"timezone": "UTC",
+				"date": "2022-04-17T15:30:00+00:00",
+				"timestamp": 1650209400,
+				"periods": {
+					"first": 1650209400,
+					"second": 1650213000
+				},
+				"venue": {
+					"id": 489,
+					"name": "Wembley Stadium",
+					"city": "London"
+				},
+				"status": {
+					"long": "Match Finished",
+					"short": "FT",
+					"elapsed": 90,
+					"extra": null
+				}
+			},
+			"league": {
+				"id": 45,
+				"name": "FA Cup",
+				"country": "England",
+				"logo": "https://media.api-sports.io/football/leagues/45.png",
+				"flag": "https://media.api-sports.io/flags/gb-eng.svg",
+				"season": 2021,
+				"round": "Semi-finals",
+				"standings": false
+			},
+			"teams": {
+				"home": {
+					"id": 49,
+					"name": "Chelsea",
+					"logo": "https://media.api-sports.io/football/teams/49.png",
+					"winner": true
+				},
+				"away": {
+					"id": 52,
+					"name": "Crystal Palace",
+					"logo": "https://media.api-sports.io/football/teams/52.png",
+					"winner": false
+				}
+			},
+			"goals": {
+				"home": 2,
+				"away": 0
+			},
+			"score": {
+				"halftime": {
+					"home": 0,
+					"away": 0
+				},
+				"fulltime": {
+					"home": 2,
+					"away": 0
+				},
+				"extratime": {
+					"home": null,
+					"away": null
+				},
+				"penalty": {
+					"home": null,
+					"away": null
+				}
+			}
+		},
+		{
+			"fixture": {
+				"id": 858021,
+				"referee": "C. Pawson",
+				"timezone": "UTC",
+				"date": "2022-05-14T15:45:00+00:00",
+				"timestamp": 1652543100,
+				"periods": {
+					"first": 1652543100,
+					"second": 1652546700
+				},
+				"venue": {
+					"id": 489,
+					"name": "Wembley Stadium",
+					"city": "London"
+				},
+				"status": {
+					"long": "Match Finished",
+					"short": "PEN",
+					"elapsed": 120,
+					"extra": null
+				}
+			},
+			"league": {
+				"id": 45,
+				"name": "FA Cup",
+				"country": "England",
+				"logo": "https://media.api-sports.io/football/leagues/45.png",
+				"flag": "https://media.api-sports.io/flags/gb-eng.svg",
+				"season": 2021,
+				"round": "Final",
+				"standings": false
+			},
+			"teams": {
+				"home": {
+					"id": 49,
+					"name": "Chelsea",
+					"logo": "https://media.api-sports.io/football/teams/49.png",
+					"winner": false
+				},
+				"away": {
+					"id": 40,
+					"name": "Liverpool",
+					"logo": "https://media.api-sports.io/football/teams/40.png",
+					"winner": true
+				}
+			},
+			"goals": {
+				"home": 0,
+				"away": 0
+			},
+			"score": {
+				"halftime": {
+					"home": 0,
+					"away": 0
+				},
+				"fulltime": {
+					"home": 0,
+					"away": 0
+				},
+				"extratime": {
+					"home": 0,
+					"away": 0
+				},
+				"penalty": {
+					"home": 5,
+					"away": 6
+				}
+			}
+		}
+	]
+}
