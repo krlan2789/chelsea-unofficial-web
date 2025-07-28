@@ -1,14 +1,11 @@
 @import "tailwindcss";
 
-/*@theme {
-	--color-primary-bg: "#001489";
-} */
-
 @plugin "daisyui/theme" {
 	name: "chelseaTheme";
 	default: true;
 	prefersdark: false;
 	color-scheme: "light";
+
 	--color-base-100: #e5edf2;
 	--color-base-200: #d6e5f2;
 	--color-base-300: #c8dcf0;
@@ -29,6 +26,7 @@
 	--color-warning-content: oklch(44% 0.03 256.802);
 	--color-error: #fb2514;
 	--color-error-content: #f8f4f2;
+
 	--radius-selector: 0rem;
 	--radius-field: 0rem;
 	--radius-box: 0rem;
@@ -70,5 +68,13 @@
 @layer components {
 	.custom-scrollable-x {
 		@apply overflow-x-scroll [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none];
+	}
+
+	.section-header {
+		@apply w-full h-auto flex items-center justify-center md:justify-start pb-8 text-primary;
+	}
+
+	.section-header h2 {
+		@apply text-2xl font-bold h-full flex items-center uppercase py-2 border-b-2;
 	}
 }
