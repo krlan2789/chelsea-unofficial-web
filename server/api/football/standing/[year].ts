@@ -8,7 +8,7 @@ export default cachedEventHandler(async (event) => {
 	const year = getRouterParam(event, "year") || "2023";
 
 	try {
-		const filePath = join(__dirname, "../../server/api/football", `standing_${year}.json`);
+		const filePath = join(__dirname, "dummy/football", `standing_${year}.json`);
 		const data = await readFile(filePath, "utf-8");
 		return JSON.parse(data);
 	} catch (err) {

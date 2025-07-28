@@ -6,7 +6,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 
 export default cachedEventHandler(async () => {
 	try {
-		const filePath = join(__dirname, "../../server/api/football/", `team_squad.json`);
+		const filePath = join(__dirname, "dummy/football", `team_squad.json`);
 		const data = await readFile(filePath, "utf-8");
 		return JSON.parse(data);
 	} catch (err) {

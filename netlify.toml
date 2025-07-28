@@ -1,2 +1,2 @@
 [functions]
-included_files = ["server/api/**/*.json"]
+included_files = ["public/dummy/football/*.json"]
