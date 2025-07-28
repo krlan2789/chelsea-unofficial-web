@@ -1,62 +1,57 @@
 <script setup lang="ts">
+import type ICarouselProp from '~/types/components/ICarouselProp';
+
+const { auto, interval, hideNavigation, name } = defineProps<ICarouselProp>();
+
 let prevClick: () => void;
 let nextClick: () => void;
 
 onMounted(() => {
-	const { prev, next } = useHorizontalScrollable("#carousel-main", "#carousel-main .carousel-item", "#carousel-main-btn-prev", "#carousel-main-btn-next");
+	const { prev, next } = useHorizontalScrollable("#carousel-" + name, "#carousel-" + name + " .carousel-item", "#carousel-btn-prev-" + name, "#carousel-btn-next-" + name);
+	prevClick = () => {
+		prev("#carousel-" + name);
+	};
 
-	prevClick = prev;
-	nextClick = next;
+	nextClick = () => {
+		next("#carousel-" + name, auto ?? false);
+	};
+
+	if (auto || hideNavigation) setInterval(() => {
+		nextClick();
+	}, interval ?? 4000);
 });
 </script>
 
 <template>
-	<div class="relative">
-		<div id="carousel-main" class="carousel carousel-center overflow-x-auto size-full max-h-full">
-			<div class="carousel-item relative w-full pt-24">
-				<img src="/img/1.jpg" class="w-full object-cover origin-center" />
-				<div class="absolute flex flex-col gap-4 md:gap-6 justify-end pb-8 px-4 md:pb-12 md:px-8 inset-0 bg-gradient-to-t from-neutral via-neutral/88 via-30% to-transparent text-center text-neutral-content">
-					<h1 class="text-2xl md:text-4xl font-semibold">For the first time to winning UEFA Champions League</h1>
-					<p class="text-base md:text-lg">Beat the favorite, FC Bayern Munich, at their home</p>
-				</div>
+	<section class="min-h-48 w-full h-full p-0 flex-col">
+		<div class="relative w-full h-full">
+			<div :id="'carousel-' + name"
+				class="carousel carousel-center overflow-y-hidden overflow-x-auto w-full h-full max-h-full">
+				<slot name="items"></slot>
 			</div>
-			<div class="carousel-item relative w-full pt-24">
-				<img src="/img/2.webp" class="w-full object-cover origin-center" />
-				<div class="absolute flex flex-col gap-4 md:gap-6 justify-end pb-8 px-4 md:pb-12 md:px-8 inset-0 bg-gradient-to-t from-neutral via-neutral/88 via-30% to-transparent text-center text-neutral-content">
-					<h1 class="text-2xl md:text-4xl font-semibold">Winning the first edition of FIFA Club World Cup</h1>
-					<p class="text-base md:text-lg">Beat Paris Saint-Germain FC, a team with an outstanding performance in that season</p>
-				</div>
+
+			<!-- Navigation -->
+			<div v-if="!hideNavigation"
+				class="absolute left-0 right-0 top-2/5 flex origin-center transform justify-between">
+				<button :id="'carousel-btn-prev-' + name" @click="prevClick"
+					class="absolute top-1/2 left-5 btn btn-ghost btn-primary p-2">
+					<span class="text-primary-content size-4 lg:size-6 group-hover:text-primary">
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+							<path fill="currentColor" d="M16 19L5 12l11-7z" />
+						</svg>
+					</span>
+				</button>
+
+				<button :id="'carousel-btn-next-' + name" @click="nextClick"
+					class="absolute top-1/2 right-5 btn btn-ghost btn-primary p-2">
+					<span class="rotate-180 text-primary-content size-4 lg:size-6 group-hover:text-primary">
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+							<path fill="currentColor" d="M16 19L5 12l11-7z" />
+						</svg>
+					</span>
+				</button>
 			</div>
-			<div class="carousel-item relative w-full pt-24">
-				<img src="/img/3.webp" class="w-full object-cover origin-center" />
-				<div class="absolute flex flex-col gap-4 md:gap-6 justify-end pb-8 px-4 md:pb-12 md:px-8 inset-0 bg-gradient-to-t from-neutral via-neutral/88 via-30% to-transparent text-center text-neutral-content">
-					<h1 class="text-2xl md:text-4xl font-semibold">Another incredible season in Women's Super League</h1>
-					<p class="text-base md:text-lg">Go unbeaten in WSL season, becoming first team to have two 'Invincible' campaigns</p>
-				</div>
-			</div>
-			<div class="carousel-item relative w-full pt-24">
-				<img src="/img/4.jpg" class="w-full object-cover origin-center" />
-				<div class="absolute flex flex-col gap-4 md:gap-6 justify-end pb-8 px-4 md:pb-12 md:px-8 inset-0 bg-gradient-to-t from-neutral via-neutral/88 via-30% to-transparent text-center text-neutral-content">
-					<h1 class="text-2xl md:text-4xl font-semibold">Stamford Bridge</h1>
-					<p class="text-base md:text-lg">The Bridge for every big game</p>
-				</div>
-			</div>
+			<!-- Navigation -->
 		</div>
-		<div class="absolute left-5 right-5 top-9/16 flex -translate-y-1/2 transform justify-between">
-			<button id="carousel-main-btn-prev" @click="prevClick" class="btn btn-ghost btn-primary p-2">
-				<span class="text-primary-content size-6 group-hover:text-primary">
-					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-						<path fill="currentColor" d="M16 19L5 12l11-7z" />
-					</svg>
-				</span>
-			</button>
-			<button id="carousel-main-btn-next" @click="nextClick" class="btn btn-ghost btn-primary p-2">
-				<span class="rotate-180 text-primary-content size-6 group-hover:text-primary">
-					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-						<path fill="currentColor" d="M16 19L5 12l11-7z" />
-					</svg>
-				</span>
-			</button>
-		</div>
-	</div>
+	</section>
 </template>
