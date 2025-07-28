@@ -1,9 +1,12 @@
 import { readFile } from "fs/promises";
-import { join } from "path";
+import { dirname, join } from "path";
+import { fileURLToPath } from "url";
 
-export default defineEventHandler(async () => {
+const __dirname = dirname(fileURLToPath(import.meta.url));
+
+export default cachedEventHandler(async () => {
 	try {
-		const filePath = join(process.cwd(), "server/api/football/", `team_squad.json`);
+		const filePath = join(__dirname, "../../server/api/football/", `team_squad.json`);
 		const data = await readFile(filePath, "utf-8");
 		return JSON.parse(data);
 	} catch (err) {
