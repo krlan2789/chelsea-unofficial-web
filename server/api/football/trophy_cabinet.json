@@ -1,0 +1,284 @@
+{
+	"trophies": [
+		{
+			"name": "Premier League",
+			"region": "England",
+			"year": 1955,
+			"status": "Winner",
+			"description": "Chelsea's first top-flight league title.",
+			"image": "https://tmssl.akamaized.net//images/erfolge/medium/12.png?lm=1520606997"
+		},
+		{
+			"name": "Premier League",
+			"region": "England",
+			"year": 2005,
+			"status": "Winner",
+			"description": "Chelsea's first Premier League title under José Mourinho.",
+			"image": "https://tmssl.akamaized.net//images/erfolge/medium/12.png?lm=1520606997"
+		},
+		{
+			"name": "Premier League",
+			"region": "England",
+			"year": 2006,
+			"status": "Winner",
+			"description": "Back-to-back Premier League titles.",
+			"image": "https://tmssl.akamaized.net//images/erfolge/medium/12.png?lm=1520606997"
+		},
+		{
+			"name": "Premier League",
+			"region": "England",
+			"year": 2010,
+			"status": "Winner",
+			"description": "Secured the title with a record 103 goals.",
+			"image": "https://tmssl.akamaized.net//images/erfolge/medium/12.png?lm=1520606997"
+		},
+		{
+			"name": "Premier League",
+			"region": "England",
+			"year": 2015,
+			"status": "Winner",
+			"description": "Premier League champions under José Mourinho.",
+			"image": "https://tmssl.akamaized.net//images/erfolge/medium/12.png?lm=1520606997"
+		},
+		{
+			"name": "Premier League",
+			"region": "England",
+			"year": 2017,
+			"status": "Winner",
+			"description": "Premier League champions under Antonio Conte.",
+			"image": "https://tmssl.akamaized.net//images/erfolge/medium/12.png?lm=1520606997"
+		},
+		{
+			"name": "FA Cup",
+			"region": "England",
+			"year": 1970,
+			"status": "Winner",
+			"description": "Chelsea's first FA Cup triumph.",
+			"image": "https://tmssl.akamaized.net//images/erfolge/medium/29.png?lm=1520606999"
+		},
+		{
+			"name": "FA Cup",
+			"region": "England",
+			"year": 1997,
+			"status": "Winner",
+			"description": "Ended a 27-year wait for the trophy.",
+			"image": "https://tmssl.akamaized.net//images/erfolge/medium/29.png?lm=1520606999"
+		},
+		{
+			"name": "FA Cup",
+			"region": "England",
+			"year": 2000,
+			"status": "Winner",
+			"description": "Won the last FA Cup final at the old Wembley.",
+			"image": "https://tmssl.akamaized.net//images/erfolge/medium/29.png?lm=1520606999"
+		},
+		{
+			"name": "FA Cup",
+			"region": "England",
+			"year": 2007,
+			"status": "Winner",
+			"description": "First FA Cup at the new Wembley.",
+			"image": "https://tmssl.akamaized.net//images/erfolge/medium/29.png?lm=1520606999"
+		},
+		{
+			"name": "FA Cup",
+			"region": "England",
+			"year": 2009,
+			"status": "Winner",
+			"description": "Dramatic win over Everton.",
+			"image": "https://tmssl.akamaized.net//images/erfolge/medium/29.png?lm=1520606999"
+		},
+		{
+			"name": "FA Cup",
+			"region": "England",
+			"year": 2010,
+			"status": "Winner",
+			"description": "Secured the Double.",
+			"image": "https://tmssl.akamaized.net//images/erfolge/medium/29.png?lm=1520606999"
+		},
+		{
+			"name": "FA Cup",
+			"region": "England",
+			"year": 2012,
+			"status": "Winner",
+			"description": "Beat Liverpool in the final.",
+			"image": "https://tmssl.akamaized.net//images/erfolge/medium/29.png?lm=1520606999"
+		},
+		{
+			"name": "FA Cup",
+			"region": "England",
+			"year": 2018,
+			"status": "Winner",
+			"description": "Eden Hazard scored the winning penalty.",
+			"image": "https://tmssl.akamaized.net//images/erfolge/medium/29.png?lm=1520606999"
+		},
+		{
+			"name": "Football League Cup",
+			"region": "England",
+			"year": 1965,
+			"status": "Winner",
+			"description": "Chelsea's first League Cup win.",
+			"image": "https://tmssl.akamaized.net//images/erfolge/medium/47.png?lm=1520606999"
+		},
+		{
+			"name": "Football League Cup",
+			"region": "England",
+			"year": 1998,
+			"status": "Winner",
+			"description": "Won under Gianluca Vialli.",
+			"image": "https://tmssl.akamaized.net//images/erfolge/medium/47.png?lm=1520606999"
+		},
+		{
+			"name": "Football League Cup",
+			"region": "England",
+			"year": 2005,
+			"status": "Winner",
+			"description": "First trophy under José Mourinho.",
+			"image": "https://tmssl.akamaized.net//images/erfolge/medium/47.png?lm=1520606999"
+		},
+		{
+			"name": "Football League Cup",
+			"region": "England",
+			"year": 2007,
+			"status": "Winner",
+			"description": "Defeated Arsenal in the final.",
+			"image": "https://tmssl.akamaized.net//images/erfolge/medium/47.png?lm=1520606999"
+		},
+		{
+			"name": "Football League Cup",
+			"region": "England",
+			"year": 2015,
+			"status": "Winner",
+			"description": "Beat Tottenham Hotspur in the final.",
+			"image": "https://tmssl.akamaized.net//images/erfolge/medium/47.png?lm=1520606999"
+		},
+		{
+			"name": "FA Community Shield",
+			"region": "England",
+			"year": 1955,
+			"status": "Winner",
+			"description": "Chelsea's first Community Shield.",
+			"image": "https://tmssl.akamaized.net//images/erfolge/medium/316.png?lm=1520606999"
+		},
+		{
+			"name": "FA Community Shield",
+			"region": "England",
+			"year": 2000,
+			"status": "Winner",
+			"description": "Defeated Manchester United.",
+			"image": "https://tmssl.akamaized.net//images/erfolge/medium/316.png?lm=1520606999"
+		},
+		{
+			"name": "FA Community Shield",
+			"region": "England",
+			"year": 2005,
+			"status": "Winner",
+			"description": "Beat Arsenal at Millennium Stadium.",
+			"image": "https://tmssl.akamaized.net//images/erfolge/medium/316.png?lm=1520606999"
+		},
+		{
+			"name": "FA Community Shield",
+			"region": "England",
+			"year": 2009,
+			"status": "Winner",
+			"description": "Won on penalties against Manchester United.",
+			"image": "https://tmssl.akamaized.net//images/erfolge/medium/316.png?lm=1520606999"
+		},
+		{
+			"name": "FA Community Shield",
+			"region": "England",
+			"year": 2010,
+			"status": "Winner",
+			"description": "Beat Manchester United at Wembley.",
+			"image": "https://tmssl.akamaized.net//images/erfolge/medium/316.png?lm=1520606999"
+		},
+		{
+			"name": "UEFA Champions League",
+			"region": "Europe",
+			"year": 2012,
+			"status": "Winner",
+			"description": "Chelsea's first Champions League title.",
+			"image": "https://tmssl.akamaized.net//images/erfolge/medium/4.png?lm=1520606999"
+		},
+		{
+			"name": "UEFA Champions League",
+			"region": "Europe",
+			"year": 2021,
+			"status": "Winner",
+			"description": "Chelsea's second Champions League title.",
+			"image": "https://tmssl.akamaized.net//images/erfolge/medium/4.png?lm=1520606999"
+		},
+		{
+			"name": "UEFA Europa League",
+			"region": "Europe",
+			"year": 2013,
+			"status": "Winner",
+			"description": "Chelsea's first Europa League title.",
+			"image": "https://tmssl.akamaized.net//images/erfolge/medium/264.png?lm=1520606999"
+		},
+		{
+			"name": "UEFA Europa League",
+			"region": "Europe",
+			"year": 2019,
+			"status": "Winner",
+			"description": "Chelsea's second Europa League title.",
+			"image": "https://tmssl.akamaized.net//images/erfolge/medium/264.png?lm=1520606999"
+		},
+		{
+			"name": "UEFA Europa Conference League",
+			"region": "Europe",
+			"year": 2025,
+			"status": "Winner",
+			"description": "Chelsea's first Conference League title.",
+			"image": "https://tmssl.akamaized.net//images/erfolge/medium/856.png?lm=1639997104"
+		},
+		{
+			"name": "UEFA Super Cup",
+			"region": "Europe",
+			"year": 1998,
+			"status": "Winner",
+			"description": "Defeated Real Madrid.",
+			"image": "https://tmssl.akamaized.net//images/erfolge/medium/354.png?lm=1520606999"
+		},
+		{
+			"name": "UEFA Super Cup",
+			"region": "Europe",
+			"year": 2021,
+			"status": "Winner",
+			"description": "Beat Villarreal on penalties.",
+			"image": "https://tmssl.akamaized.net//images/erfolge/medium/354.png?lm=1520606999"
+		},
+		{
+			"name": "FIFA Intercontinental Cup",
+			"region": "World",
+			"year": 2021,
+			"status": "Winner",
+			"description": "Chelsea's first Intercontinental Cup title (formerly Club World Cup).",
+			"image": "https://tmssl.akamaized.net//images/erfolge/medium/318.png?lm=1749717358"
+		},
+		{
+			"name": "FIFA Club World Cup",
+			"region": "World",
+			"year": 2025,
+			"status": "Winner",
+			"description": "Chelsea won the first edition of Club World Cup.",
+			"image": "https://tmssl.akamaized.net//images/erfolge/medium/318.png?lm=1749717358"
+		},
+		{
+			"name": "UEFA Cup Winners' Cup",
+			"region": "Europe",
+			"year": 1971,
+			"status": "Winner",
+			"description": "Chelsea's first European trophy.",
+			"image": "https://tmssl.akamaized.net//images/erfolge/medium/53.png?lm=1647507697"
+		},
+		{
+			"name": "UEFA Cup Winners' Cup",
+			"region": "Europe",
+			"year": 1998,
+			"status": "Winner",
+			"description": "Second Cup Winners' Cup triumph.",
+			"image": "https://tmssl.akamaized.net//images/erfolge/medium/53.png?lm=1647507697"
+		}
+	]
+}
