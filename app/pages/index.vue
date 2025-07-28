@@ -1,9 +1,9 @@
 <script lang="ts" setup>
-import FixturesComponent from "~/components/FixturesComponent.vue";
 </script>
 
 <template>
 	<HeroComponent />
-	<FixturesComponent />
-	<div>Homepage</div>
+	<FixturesCarouselComponent :limit="6" />
+	<NewsComponent :limit="6" />
+	<LeagueStandingComponent :limit="6" compact />
 </template>

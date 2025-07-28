@@ -1,4 +1,4 @@
 <script lang="ts" setup></script>
 <template>
-	<div></div>
+	<NewsComponent :limit="18" lazy />
 </template>
