@@ -22,7 +22,7 @@ bun install
 
 ## Development Server
 
-Start the development server on `http://localhost:3000`:
+Start the development server on `http://localhost:3456`:
 
 ```bash
 # npm
@@ -35,7 +35,7 @@ pnpm dev
 yarn dev
 
 # bun
-bun run dev
+bun run dev --bun
 ```
 
 ## Production
