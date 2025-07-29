@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import type ITrophyCardProp from '~/types/components/ITrophyCardProp';
+import type ITrophyCardProp from "~/types/components/ITrophyCardProp";
 
 defineProps<ITrophyCardProp>();
 </script>

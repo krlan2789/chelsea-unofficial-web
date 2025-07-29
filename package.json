@@ -12,6 +12,7 @@
 		"generate": "nuxt generate",
 		"preview": "nuxt preview",
 		"postinstall": "nuxt prepare",
+		"netlify": "netlify dev",
 		"format": "prettier . --write"
 	},
 	"dependencies": {

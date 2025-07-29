@@ -1,11 +1,18 @@
 <script lang="ts" setup>
-import type IPlayerCardProp from '~/types/components/IPlayerCardProp';
-import type ITeamSquadProp from '~/types/components/ITeamSquadProp';
+import type IPlayerCardProp from "~/types/components/IPlayerCardProp";
+import type ITeamSquadProp from "~/types/components/ITeamSquadProp";
 
 const { data } = defineProps<ITeamSquadProp>();
-const { data: squads } = useTeamSquad();
+// const { data: squads } = await useTeamSquad();
 
-const squadList = ref<IPlayerCardProp[]>(data ?? squads ?? []);
+const squadList = ref<IPlayerCardProp[] | null>(data ?? null);
+
+onMounted(async () => {
+	if (!squadList.value) {
+		const { data: squads } = await useTeamSquad();
+		squadList.value = squads;
+	}
+});
 </script>
 
 <template>

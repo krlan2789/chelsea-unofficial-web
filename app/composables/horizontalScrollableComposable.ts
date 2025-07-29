@@ -38,7 +38,7 @@ export const useHorizontalScrollable = (containerSelector: string, itemSelector:
 		if (currentScrollable(container)) {
 			currentScrollable(container).scrollBy({
 				left: isScrolledToStart(currentScrollable(container)) && auto ? currentScrollable(container).scrollLeft + currentScrollable(container).clientWidth : -elementWidth.value,
-				behavior: "smooth"
+				behavior: "smooth",
 			});
 			watchNavbtn(currentScrollable(container));
 		}
@@ -48,10 +48,9 @@ export const useHorizontalScrollable = (containerSelector: string, itemSelector:
 		if (currentScrollable(container)) {
 			currentScrollable(container).scrollBy({
 				left: isScrolledToEnd(currentScrollable(container)) && auto ? -currentScrollable(container).scrollLeft - currentScrollable(container).clientWidth : elementWidth.value,
-				behavior: "smooth"
+				behavior: "smooth",
 			});
 			watchNavbtn(currentScrollable(container));
-
 		}
 	};
 

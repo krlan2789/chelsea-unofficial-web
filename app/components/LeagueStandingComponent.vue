@@ -3,9 +3,15 @@ import type { ILeagueStanding } from "~/types/components/ILeagueStandingProp";
 import type ILeagueStandingProp from "~/types/components/ILeagueStandingProp";
 
 const { data, limit, compact } = defineProps<ILeagueStandingProp>();
-const { data: standing } = useLeagueStandings();
 
-const leagueStanding = ref<ILeagueStanding | null>(data ?? standing ?? null);
+const leagueStanding = ref<ILeagueStanding | null>(data ?? null);
+
+onMounted(async () => {
+	if (!leagueStanding.value) {
+		const { data: standing } = await useLeagueStandings();
+		leagueStanding.value = standing;
+	}
+});
 </script>
 
 <template>
@@ -19,10 +25,15 @@ const leagueStanding = ref<ILeagueStanding | null>(data ?? standing ?? null);
 					<thead>
 						<tr>
 							<th>Rank</th>
-							<td class="text-center" :class="{
-								'min-w-[192px] lg:min-w-3xs': !compact,
-								'min-w-[144px] lg:min-w-[192px]': compact,
-							}">Name</td>
+							<td
+								class="text-center"
+								:class="{
+									'min-w-[192px] lg:min-w-3xs': !compact,
+									'min-w-[144px] lg:min-w-[192px]': compact,
+								}"
+							>
+								Name
+							</td>
 							<td class="text-center">Point</td>
 							<td class="text-center">GP</td>
 							<td v-if="!compact" class="text-center">Win</td>
@@ -36,10 +47,13 @@ const leagueStanding = ref<ILeagueStanding | null>(data ?? standing ?? null);
 						<template v-for="(standing, index) in leagueStanding.standings" :key="index">
 							<tr v-if="!limit || index < limit">
 								<th class="-translate-x-0.5">{{ standing.rank }}</th>
-								<td class="text-center" :class="{
-									'font-bold text-primary text-lg': standing.teamId == 49,
-									'font-semibold': standing.teamId != 49,
-								}">
+								<td
+									class="text-center"
+									:class="{
+										'font-bold text-primary text-lg': standing.teamId == 49,
+										'font-semibold': standing.teamId != 49,
+									}"
+								>
 									{{ standing.teamName }}
 								</td>
 								<td class="text-center font-bold text-lg">{{ standing.point }}</td>
@@ -47,8 +61,7 @@ const leagueStanding = ref<ILeagueStanding | null>(data ?? standing ?? null);
 								<td v-if="!compact" class="text-center font-medium">{{ standing.win }}</td>
 								<td v-if="!compact" class="text-center font-medium">{{ standing.draw }}</td>
 								<td v-if="!compact" class="text-center font-medium">{{ standing.lose }}</td>
-								<td v-if="!compact" class="text-center font-medium">{{ standing.goal }}-{{
-									standing.conceaded }}</td>
+								<td v-if="!compact" class="text-center font-medium">{{ standing.goal }}-{{ standing.conceaded }}</td>
 								<td class="text-center font-medium">{{ standing.goalDiff }}</td>
 							</tr>
 						</template>

@@ -76,19 +76,21 @@ export default class DtoMapper {
 	}
 
 	static mapTeamSquadDtoToTeamSquadProp(teamSquadDto: ITeamSquadDto): IPlayerCardProp[] {
-		return teamSquadDto.response.map((res): IPlayerCardProp[] => {
-			return res.players.map((player): IPlayerCardProp => {
-				return {
-					id: '' + player.id,
-					name: player.name,
-					teamLogo: res.team.logo,
-					age: player.age,
-					number: player.number,
-					position: player.position,
-					image: player.photo,
-				}
-			});
-		}).flat();
+		return teamSquadDto.response
+			.map((res): IPlayerCardProp[] => {
+				return res.players.map((player): IPlayerCardProp => {
+					return {
+						id: "" + player.id,
+						name: player.name,
+						teamLogo: res.team.logo,
+						age: player.age,
+						number: player.number,
+						position: player.position,
+						image: player.photo,
+					};
+				});
+			})
+			.flat();
 	}
 
 	static mapTrophyDtoToTrophyProp(trophyDto: ITrophyDto): ITrophyCard[] {
